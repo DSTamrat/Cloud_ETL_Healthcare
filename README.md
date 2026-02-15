@@ -12,7 +12,7 @@ It simulates how real healthcare systems ingest, clean, transform, and prepare d
 
 
 
-\## 📌 Project Overview
+\## Project Overview
 
 
 
@@ -86,7 +86,18 @@ These outputs are ready for:
 
 
 
-\## 📁 Folder Structure
+\##  📁 Folder Structure
+
+```text
+cloud_etl_healthcare/
+├── data_raw/
+├── data_processed/
+├── etl/
+│   ├── generate_healthcare_data.py
+│   └── etl_healthcare.py
+├── notebooks/
+└── README.md
+
 
 
 
