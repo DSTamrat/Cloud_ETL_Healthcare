@@ -1,0 +1,1001 @@
+patient_id,age,gender,primary_condition,admission_type,length_of_stay_days,admission_date,discharge_date,readmitted_30d,total_cost_usd,hospital_unit
+1,69,Female,Hypertension,Elective,4.1,2023-10-04,2023-10-08 02:24:00,1,3533.89,General Medicine
+2,32,Male,COPD,Newborn,2.5,2023-01-18,2023-01-20 12:00:00,0,5835.8,General Medicine
+3,89,Female,None,Elective,3.3,2023-07-17,2023-07-20 07:12:00,0,3051.25,Psychiatry
+4,78,Male,COPD,Emergency,2.7,2023-02-26,2023-02-28 16:48:00,1,6264.3,Cardiology
+5,38,Male,Depression,Newborn,4.4,2023-04-03,2023-04-07 09:36:00,0,5226.68,General Medicine
+6,41,Female,None,Urgent,3.4,2023-01-19,2023-01-22 09:36:00,0,6997.3,General Medicine
+7,20,Female,Heart Failure,Elective,0.9,2023-12-19,2023-12-19 21:36:00,0,1193.89,Surgery
+8,39,Male,Hypertension,Urgent,4.4,2023-07-12,2023-07-16 09:36:00,1,9943.47,Psychiatry
+9,70,Female,Depression,Urgent,4.4,2023-08-25,2023-08-29 09:36:00,1,8759.4,General Medicine
+10,19,Female,Diabetes,Emergency,14.5,2023-10-04,2023-10-18 12:00:00,0,21504.7,Cardiology
+11,47,Female,Diabetes,Newborn,10.9,2023-08-15,2023-08-25 21:36:00,0,10133.88,ICU
+12,55,Female,Hypertension,Emergency,4.8,2023-08-21,2023-08-25 19:12:00,0,9818.83,Psychiatry
+13,19,Female,Heart Failure,Emergency,3.0,2023-02-09,2023-02-12 00:00:00,0,5546.11,Surgery
+14,81,Other,Depression,Emergency,1.8,2023-11-19,2023-11-20 19:12:00,0,1448.91,General Medicine
+15,77,Female,COPD,Urgent,3.6,2023-06-02,2023-06-05 14:24:00,0,2937.65,Cardiology
+16,38,Female,Hypertension,Emergency,1.5,2023-05-07,2023-05-08 12:00:00,1,,Psychiatry
+17,50,Other,Heart Failure,Emergency,6.7,2023-08-25,2023-08-31 16:48:00,1,8314.56,Cardiology
+18,75,Female,COPD,Newborn,0.5,2023-02-24,2023-02-24 12:00:00,0,940.71,Cardiology
+19,39,Male,Diabetes,Newborn,5.8,2023-06-21,2023-06-26 19:12:00,0,9118.55,Surgery
+20,66,Male,Diabetes,Emergency,15.0,2023-04-19,2023-05-04 00:00:00,0,34017.47,Psychiatry
+21,76,Male,COPD,Newborn,12.6,2023-12-20,2024-01-01 14:24:00,0,29721.31,General Medicine
+22,59,Male,Hypertension,Newborn,1.4,2023-07-03,2023-07-04 09:36:00,0,3492.4,Surgery
+23,77,Female,Diabetes,Emergency,0.8,2023-07-17,2023-07-17 19:12:00,1,849.01,General Medicine
+24,32,Female,Depression,Urgent,8.6,2023-03-28,2023-04-05 14:24:00,0,19496.53,ICU
+25,79,Female,None,Emergency,5.2,2023-07-20,2023-07-25 04:48:00,0,6511.63,Cardiology
+26,79,Male,COPD,Newborn,2.9,2023-12-03,2023-12-05 21:36:00,0,5232.72,ICU
+27,64,Female,COPD,Urgent,5.6,2023-11-18,2023-11-23 14:24:00,0,9294.96,Cardiology
+28,79,Female,Diabetes,Elective,1.5,2023-10-02,2023-10-03 12:00:00,0,1245.87,Surgery
+29,68,Female,Hypertension,Urgent,5.3,2023-07-30,2023-08-04 07:12:00,0,12644.27,General Medicine
+30,72,Female,Depression,Newborn,1.2,2023-04-28,2023-04-29 04:48:00,0,1119.79,General Medicine
+31,81,Female,Hypertension,Urgent,5.6,2023-07-10,2023-07-15 14:24:00,1,11031.84,Surgery
+32,20,Male,Heart Failure,Emergency,2.6,2023-02-11,2023-02-13 14:24:00,0,5549.73,Psychiatry
+33,68,Female,Heart Failure,Elective,4.1,2023-02-11,2023-02-15 02:24:00,0,8823.16,ICU
+34,24,Male,None,Elective,4.2,2023-11-11,2023-11-15 04:48:00,0,4327.43,ICU
+35,38,Male,Diabetes,Elective,11.4,2023-10-03,2023-10-14 09:36:00,0,17793.91,General Medicine
+36,56,Female,Diabetes,Newborn,4.9,2023-11-25,2023-11-29 21:36:00,0,10829.14,General Medicine
+37,35,Male,Diabetes,Newborn,6.9,2023-01-17,2023-01-23 21:36:00,0,9070.43,General Medicine
+38,21,Female,None,Elective,4.8,2023-10-10,2023-10-14 19:12:00,0,7656.83,Surgery
+39,77,Male,Heart Failure,Urgent,3.1,2023-09-15,2023-09-18 02:24:00,0,3917.62,Psychiatry
+40,31,Female,Hypertension,Elective,2.7,2023-03-04,2023-03-06 16:48:00,0,4287.7,ICU
+41,26,Male,None,Urgent,2.7,2023-03-03,2023-03-05 16:48:00,0,6235.18,Cardiology
+42,70,Other,None,Urgent,5.5,2023-04-10,2023-04-15 12:00:00,1,8655.41,Surgery
+43,19,Female,,Newborn,9.4,2023-01-19,2023-01-28 09:36:00,0,,ICU
+44,77,Male,Diabetes,Urgent,9.6,2023-01-17,2023-01-26 14:24:00,0,14272.89,Psychiatry
+45,88,Female,Depression,Elective,2.7,2023-11-21,2023-11-23 16:48:00,0,4271.94,Surgery
+46,61,Other,Hypertension,Newborn,6.2,2023-09-03,2023-09-09 04:48:00,0,5119.94,ICU
+47,25,Male,Heart Failure,Emergency,2.3,2023-09-08,2023-09-10 07:12:00,1,,Surgery
+48,64,Male,COPD,Emergency,8.1,2023-03-22,2023-03-30 02:24:00,0,12491.73,ICU
+49,52,Female,COPD,Newborn,2.4,2023-02-08,2023-02-10 09:36:00,1,4505.89,ICU
+50,53,Female,None,Elective,8.8,2023-02-05,2023-02-13 19:12:00,1,13772.78,Psychiatry
+51,67,Female,COPD,Emergency,6.1,2023-07-16,2023-07-22 02:24:00,0,8383.16,Cardiology
+52,21,Female,Depression,Emergency,2.4,2023-06-07,2023-06-09 09:36:00,0,,Psychiatry
+53,19,Male,Diabetes,Urgent,6.6,2023-07-23,2023-07-29 14:24:00,0,7998.53,ICU
+54,23,Male,Heart Failure,Urgent,2.8,2023-07-15,2023-07-17 19:12:00,1,6640.59,Surgery
+55,71,Female,Depression,Elective,20.8,2023-08-04,2023-08-24 19:12:00,0,35088.84,Psychiatry
+56,21,Male,Heart Failure,Newborn,3.2,2023-10-12,2023-10-15 04:48:00,0,2632.95,Cardiology
+57,71,Male,Heart Failure,Elective,3.3,2023-07-15,2023-07-18 07:12:00,0,,ICU
+58,80,Female,Diabetes,Newborn,4.5,2023-11-03,2023-11-07 12:00:00,0,11043.16,Psychiatry
+59,35,Female,None,Emergency,1.0,2023-06-01,2023-06-02 00:00:00,0,1176.47,Psychiatry
+60,61,Female,COPD,Urgent,6.6,2023-01-14,2023-01-20 14:24:00,0,,Psychiatry
+61,51,Female,Diabetes,Elective,1.4,2023-11-21,2023-11-22 09:36:00,0,1258.7,Psychiatry
+62,79,Female,Depression,Elective,8.8,2023-05-26,2023-06-03 19:12:00,1,20820.59,Surgery
+63,31,Female,None,Newborn,3.6,2023-02-26,2023-03-01 14:24:00,0,8231.43,Cardiology
+64,65,Female,Depression,Newborn,5.9,2023-07-30,2023-08-04 21:36:00,0,10448.06,Cardiology
+65,32,Male,None,Elective,5.0,2023-09-25,2023-09-30 00:00:00,0,4076.49,ICU
+66,89,Male,Depression,Newborn,10.9,2023-07-29,2023-08-08 21:36:00,0,13497.24,General Medicine
+67,79,Female,Diabetes,Elective,0.5,2023-01-17,2023-01-17 12:00:00,0,745.8,Surgery
+68,57,Female,None,Elective,2.2,2023-10-13,2023-10-15 04:48:00,0,3480.64,ICU
+69,70,Male,None,Elective,5.0,2023-12-10,2023-12-15 00:00:00,0,6530.27,ICU
+70,41,Male,Heart Failure,Emergency,0.9,2023-07-22,2023-07-22 21:36:00,0,770.41,Psychiatry
+71,43,Male,Heart Failure,Newborn,8.6,2023-04-09,2023-04-17 14:24:00,0,15507.66,General Medicine
+72,77,Male,Hypertension,Urgent,5.3,2023-10-06,2023-10-11 07:12:00,0,,General Medicine
+73,58,Female,,Urgent,2.6,2023-07-28,2023-07-30 14:24:00,0,3330.86,Surgery
+74,46,Male,Heart Failure,Newborn,4.2,2023-05-09,2023-05-13 04:48:00,0,3631.15,General Medicine
+75,32,Female,Hypertension,Elective,2.2,2023-12-01,2023-12-03 04:48:00,0,5479.78,ICU
+76,62,Female,Heart Failure,Urgent,0.5,2023-10-15,2023-10-15 12:00:00,0,809.69,General Medicine
+77,82,Female,Depression,Urgent,2.5,2023-09-09,2023-09-11 12:00:00,0,5213.02,General Medicine
+78,88,Female,None,Newborn,0.5,2023-09-22,2023-09-22 12:00:00,0,784.47,Cardiology
+79,26,Male,COPD,Urgent,2.8,2023-09-28,2023-09-30 19:12:00,1,2445.49,ICU
+80,18,Female,Depression,Elective,3.6,2023-07-07,2023-07-10 14:24:00,1,4774.76,General Medicine
+81,25,Male,Diabetes,Newborn,7.1,2023-08-02,2023-08-09 02:24:00,0,,General Medicine
+82,80,Male,Heart Failure,Elective,0.5,2023-10-10,2023-10-10 12:00:00,0,1112.6,Psychiatry
+83,28,Female,Heart Failure,Urgent,5.0,2023-07-30,2023-08-04 00:00:00,1,9560.95,General Medicine
+84,25,Male,None,Urgent,7.1,2023-12-31,2024-01-07 02:24:00,0,9004.44,General Medicine
+85,52,Male,Diabetes,Elective,10.7,2023-03-17,2023-03-27 16:48:00,0,26163.19,Cardiology
+86,52,Female,None,Emergency,1.5,2023-05-28,2023-05-29 12:00:00,1,2019.93,ICU
+87,50,Male,Diabetes,Urgent,2.2,2023-11-17,2023-11-19 04:48:00,0,5493.4,Surgery
+88,22,Female,COPD,Emergency,7.5,2023-08-01,2023-08-08 12:00:00,0,18701.09,ICU
+89,58,Male,Heart Failure,Urgent,1.7,2023-04-19,2023-04-20 16:48:00,0,1912.6,Psychiatry
+90,45,Female,Heart Failure,Emergency,8.9,2023-05-09,2023-05-17 21:36:00,0,,ICU
+91,24,Female,COPD,Emergency,2.2,2023-01-10,2023-01-12 04:48:00,0,3577.81,General Medicine
+92,89,Female,Hypertension,Emergency,8.8,2023-02-16,2023-02-24 19:12:00,0,16974.95,Psychiatry
+93,29,Female,None,Elective,2.2,2023-11-11,2023-11-13 04:48:00,0,3734.9,ICU
+94,51,Male,COPD,Emergency,13.1,2023-04-06,2023-04-19 02:24:00,0,32069.46,Psychiatry
+95,50,Female,None,Emergency,8.3,2023-04-13,2023-04-21 07:12:00,0,16855.49,Surgery
+96,65,Male,Depression,Emergency,3.2,2023-12-08,2023-12-11 04:48:00,0,3713.52,ICU
+97,40,Female,Heart Failure,Urgent,11.2,2023-05-26,2023-06-06 04:48:00,0,10961.06,General Medicine
+98,79,Male,None,Emergency,3.4,2023-01-27,2023-01-30 09:36:00,0,6698.96,Psychiatry
+99,54,Female,Diabetes,Urgent,4.5,2023-08-08,2023-08-12 12:00:00,0,4812.16,Cardiology
+100,61,Male,None,Emergency,7.0,2023-01-18,2023-01-25 00:00:00,1,14973.35,Psychiatry
+101,52,Female,Depression,Emergency,5.5,2023-06-16,2023-06-21 12:00:00,0,7308.19,Cardiology
+102,82,Female,Heart Failure,Elective,6.8,2023-03-23,2023-03-29 19:12:00,0,,General Medicine
+103,64,Female,COPD,Urgent,4.2,2023-03-13,2023-03-17 04:48:00,0,3437.1,Surgery
+104,20,Male,Depression,Emergency,2.7,2023-11-06,2023-11-08 16:48:00,0,5377.64,Cardiology
+105,18,Female,Heart Failure,Urgent,4.4,2023-09-11,2023-09-15 09:36:00,0,4367.26,Surgery
+106,22,Male,None,Urgent,6.3,2023-06-11,2023-06-17 07:12:00,0,13317.55,Psychiatry
+107,31,Male,Hypertension,Newborn,6.9,2023-11-23,2023-11-29 21:36:00,0,11289.61,General Medicine
+108,44,Male,,Elective,2.7,2023-02-07,2023-02-09 16:48:00,0,5759.84,Cardiology
+109,26,Male,Diabetes,Elective,4.3,2023-07-20,2023-07-24 07:12:00,1,7708.5,Psychiatry
+110,32,Female,Heart Failure,Elective,6.8,2023-07-19,2023-07-25 19:12:00,1,6392.93,ICU
+111,59,Female,Hypertension,Newborn,19.6,2023-09-12,2023-10-01 14:24:00,0,41191.54,Psychiatry
+112,68,Male,COPD,Newborn,2.6,2023-06-28,2023-06-30 14:24:00,0,2388.51,Surgery
+113,80,Male,Heart Failure,Elective,3.3,2023-02-04,2023-02-07 07:12:00,0,5325.52,General Medicine
+114,69,Male,COPD,Newborn,0.9,2023-03-23,2023-03-23 21:36:00,0,983.69,General Medicine
+115,21,Male,,Newborn,3.1,2023-08-08,2023-08-11 02:24:00,0,6444.81,Psychiatry
+116,40,Other,Hypertension,Newborn,4.4,2023-06-07,2023-06-11 09:36:00,0,10338.7,ICU
+117,32,Male,Heart Failure,Elective,3.4,2023-01-04,2023-01-07 09:36:00,1,5922.85,Surgery
+118,60,Male,None,Elective,1.7,2023-06-16,2023-06-17 16:48:00,0,2883.46,Psychiatry
+119,46,Male,Depression,Elective,3.1,2023-07-23,2023-07-26 02:24:00,0,6506.09,Psychiatry
+120,53,Female,Hypertension,Newborn,1.5,2023-07-13,2023-07-14 12:00:00,0,1212.95,General Medicine
+121,30,Other,Hypertension,Elective,8.7,2023-08-23,2023-08-31 16:48:00,0,20533.65,Surgery
+122,49,Female,None,Newborn,5.1,2023-07-25,2023-07-30 02:24:00,0,5791.88,ICU
+123,88,Female,Heart Failure,Emergency,2.8,2023-05-30,2023-06-01 19:12:00,0,6924.41,General Medicine
+124,76,Female,Heart Failure,Newborn,2.4,2023-06-08,2023-06-10 09:36:00,1,4923.92,Psychiatry
+125,45,Male,COPD,Urgent,6.9,2023-10-06,2023-10-12 21:36:00,0,14601.97,General Medicine
+126,83,Female,,Elective,0.6,2023-10-31,2023-10-31 14:24:00,0,1149.33,General Medicine
+127,59,Female,None,Elective,10.6,2023-06-15,2023-06-25 14:24:00,1,16979.37,Cardiology
+128,62,Female,Heart Failure,Urgent,8.1,2023-11-07,2023-11-15 02:24:00,0,14351.31,General Medicine
+129,79,Female,COPD,Newborn,1.2,2023-03-09,2023-03-10 04:48:00,0,,General Medicine
+130,74,Female,Hypertension,Emergency,5.4,2023-03-29,2023-04-03 09:36:00,0,10047.95,Surgery
+131,23,Female,Diabetes,Urgent,1.5,2023-08-05,2023-08-06 12:00:00,0,2796.55,General Medicine
+132,45,Other,Depression,Urgent,1.2,2023-01-01,2023-01-02 04:48:00,0,2778.05,ICU
+133,45,Female,Hypertension,Newborn,0.7,2023-05-15,2023-05-15 16:48:00,0,1161.73,Psychiatry
+134,61,Female,Heart Failure,Elective,1.0,2023-07-04,2023-07-05 00:00:00,1,931.15,Surgery
+135,47,Female,Depression,Newborn,11.6,2023-12-17,2023-12-28 14:24:00,0,15318.18,General Medicine
+136,79,Male,Diabetes,Urgent,9.4,2023-05-20,2023-05-29 09:36:00,0,17996.96,ICU
+137,79,Female,Diabetes,Urgent,4.0,2023-04-16,2023-04-20 00:00:00,0,4826.96,Psychiatry
+138,18,Male,COPD,Elective,1.7,2023-05-13,2023-05-14 16:48:00,0,2170.73,Surgery
+139,44,Female,Depression,Elective,8.9,2023-04-18,2023-04-26 21:36:00,0,19533.7,ICU
+140,79,Other,COPD,Elective,6.8,2023-06-27,2023-07-03 19:12:00,0,12194.74,General Medicine
+141,20,Female,,Newborn,4.1,2023-10-25,2023-10-29 02:24:00,0,6824.44,Cardiology
+142,87,Male,None,Elective,4.4,2023-12-24,2023-12-28 09:36:00,0,5902.02,Cardiology
+143,89,Male,None,Urgent,9.5,2023-12-25,2024-01-03 12:00:00,1,19404.49,Surgery
+144,44,Male,None,Urgent,0.5,2023-05-26,2023-05-26 12:00:00,0,644.56,ICU
+145,26,Female,Depression,Emergency,9.6,2023-03-15,2023-03-24 14:24:00,0,19708.88,Psychiatry
+146,79,Male,None,Newborn,14.3,2023-04-18,2023-05-02 07:12:00,1,13144.17,ICU
+147,54,Male,Hypertension,Emergency,3.8,2023-05-02,2023-05-05 19:12:00,0,8624.94,Cardiology
+148,68,Male,COPD,Urgent,0.7,2023-01-17,2023-01-17 16:48:00,0,1154.48,Surgery
+149,61,Female,Depression,Emergency,6.2,2023-07-15,2023-07-21 04:48:00,1,9581.87,General Medicine
+150,41,Female,,Urgent,1.0,2023-11-23,2023-11-24 00:00:00,0,1838.74,ICU
+151,76,Male,Depression,Emergency,5.2,2023-11-14,2023-11-19 04:48:00,0,9677.86,Cardiology
+152,49,Male,COPD,Elective,4.9,2023-10-24,2023-10-28 21:36:00,0,5019.85,Psychiatry
+153,69,Female,Diabetes,Emergency,5.4,2023-09-09,2023-09-14 09:36:00,0,11262.22,Surgery
+154,79,Female,COPD,Elective,5.5,2023-04-29,2023-05-04 12:00:00,0,6979.93,General Medicine
+155,75,Female,None,Elective,2.9,2023-06-11,2023-06-13 21:36:00,0,6781.46,ICU
+156,69,Male,Diabetes,Newborn,0.8,2023-07-17,2023-07-17 19:12:00,0,1752.28,Psychiatry
+157,29,Female,COPD,Elective,6.6,2023-02-14,2023-02-20 14:24:00,0,9165.1,General Medicine
+158,56,Female,Depression,Elective,4.3,2023-11-10,2023-11-14 07:12:00,0,9344.57,Cardiology
+159,19,Female,Depression,Emergency,3.5,2023-06-28,2023-07-01 12:00:00,0,4920.52,Cardiology
+160,20,Female,Depression,Urgent,0.8,2023-02-13,2023-02-13 19:12:00,1,,Psychiatry
+161,73,Male,Heart Failure,Newborn,1.9,2023-09-28,2023-09-29 21:36:00,0,4626.9,Cardiology
+162,76,Male,Hypertension,Elective,4.1,2023-03-19,2023-03-23 02:24:00,1,7828.64,Surgery
+163,19,Female,Depression,Newborn,14.5,2023-11-22,2023-12-06 12:00:00,0,22842.85,Psychiatry
+164,19,Female,Diabetes,Emergency,1.1,2023-06-27,2023-06-28 02:24:00,0,1623.84,Cardiology
+165,71,Female,Depression,Elective,2.6,2023-12-23,2023-12-25 14:24:00,0,3515.2,ICU
+166,18,Female,Heart Failure,Emergency,7.1,2023-01-03,2023-01-10 02:24:00,0,17526.07,Cardiology
+167,36,Female,None,Newborn,1.3,2023-08-02,2023-08-03 07:12:00,0,1337.79,Surgery
+168,19,Female,Diabetes,Emergency,7.1,2023-12-08,2023-12-15 02:24:00,0,9479.7,General Medicine
+169,70,Male,Heart Failure,Newborn,0.5,2023-03-15,2023-03-15 12:00:00,0,812.67,General Medicine
+170,61,Female,None,Emergency,0.7,2023-02-20,2023-02-20 16:48:00,0,1128.82,Cardiology
+171,49,Male,Diabetes,Newborn,8.2,2023-03-08,2023-03-16 04:48:00,0,,General Medicine
+172,87,Male,COPD,Urgent,5.9,2023-11-28,2023-12-03 21:36:00,0,6483.11,Cardiology
+173,49,Other,Hypertension,Emergency,9.7,2023-04-03,2023-04-12 16:48:00,0,10149.94,Surgery
+174,85,Male,Hypertension,Emergency,10.9,2023-06-25,2023-07-05 21:36:00,0,13440.84,General Medicine
+175,72,Male,Heart Failure,Urgent,8.4,2023-05-25,2023-06-02 09:36:00,0,19779.43,ICU
+176,73,Male,None,Urgent,0.8,2023-01-07,2023-01-07 19:12:00,0,793.75,Cardiology
+177,34,Female,Hypertension,Emergency,2.6,2023-09-26,2023-09-28 14:24:00,0,5427.82,General Medicine
+178,55,Male,None,Urgent,3.4,2023-11-18,2023-11-21 09:36:00,1,7098.63,Surgery
+179,41,Male,None,Elective,5.5,2023-01-04,2023-01-09 12:00:00,0,11971.35,Surgery
+180,86,Male,Heart Failure,Newborn,6.4,2023-05-18,2023-05-24 09:36:00,0,14766.38,ICU
+181,87,Male,Heart Failure,Newborn,2.5,2023-08-19,2023-08-21 12:00:00,0,3117.9,Surgery
+182,28,Male,Heart Failure,Newborn,2.2,2023-03-29,2023-03-31 04:48:00,1,2599.85,Surgery
+183,33,Male,Hypertension,Elective,3.7,2023-01-17,2023-01-20 16:48:00,0,5888.03,General Medicine
+184,76,Female,Heart Failure,Urgent,3.6,2023-02-21,2023-02-24 14:24:00,1,4502.35,Cardiology
+185,87,Male,Hypertension,Urgent,1.8,2023-05-14,2023-05-15 19:12:00,0,3686.99,Psychiatry
+186,20,Male,Heart Failure,Emergency,0.9,2023-07-30,2023-07-30 21:36:00,0,1692.99,Surgery
+187,37,Male,Depression,Urgent,2.4,2023-11-21,2023-11-23 09:36:00,1,5489.95,Surgery
+188,76,Male,None,Emergency,5.3,2023-08-07,2023-08-12 07:12:00,0,4985.47,Psychiatry
+189,53,Female,Heart Failure,Elective,3.2,2023-07-24,2023-07-27 04:48:00,0,7538.05,Surgery
+190,36,Female,Diabetes,Newborn,0.5,2023-07-30,2023-07-30 12:00:00,0,649.35,General Medicine
+191,84,Male,None,Newborn,4.6,2023-10-04,2023-10-08 14:24:00,1,7517.23,General Medicine
+192,36,Male,None,Newborn,3.7,2023-01-24,2023-01-27 16:48:00,0,,Psychiatry
+193,37,Male,Heart Failure,Urgent,4.6,2023-01-04,2023-01-08 14:24:00,0,9625.64,Surgery
+194,88,Female,COPD,Emergency,6.8,2023-06-01,2023-06-07 19:12:00,0,10299.05,Surgery
+195,69,Female,Heart Failure,Emergency,3.9,2023-09-16,2023-09-19 21:36:00,0,9375.76,Cardiology
+196,50,Female,None,Elective,1.6,2023-11-20,2023-11-21 14:24:00,1,3734.89,Surgery
+197,57,Male,Diabetes,Urgent,3.8,2023-12-23,2023-12-26 19:12:00,0,8674.16,General Medicine
+198,56,Female,None,Elective,3.1,2023-06-17,2023-06-20 02:24:00,0,2855.53,ICU
+199,18,Male,Diabetes,Emergency,6.0,2023-06-25,2023-07-01 00:00:00,1,13513.43,ICU
+200,28,Male,Hypertension,Emergency,1.3,2023-11-06,2023-11-07 07:12:00,0,2767.41,ICU
+201,74,Male,Depression,Newborn,8.9,2023-10-18,2023-10-26 21:36:00,0,8686.15,ICU
+202,67,Male,None,Urgent,2.7,2023-02-25,2023-02-27 16:48:00,0,2653.03,Surgery
+203,40,Female,Heart Failure,Emergency,2.6,2023-04-18,2023-04-20 14:24:00,0,2527.14,Surgery
+204,48,Female,Hypertension,Newborn,9.5,2023-10-23,2023-11-01 12:00:00,0,7783.02,Cardiology
+205,59,Male,Depression,Urgent,8.4,2023-11-20,2023-11-28 09:36:00,0,14554.5,Surgery
+206,24,Female,Heart Failure,Elective,2.5,2023-10-29,2023-10-31 12:00:00,0,6136.93,ICU
+207,33,Other,COPD,Urgent,1.6,2023-11-30,2023-12-01 14:24:00,0,2473.22,Psychiatry
+208,77,Female,Heart Failure,Urgent,5.6,2023-05-21,2023-05-26 14:24:00,1,9628.01,Psychiatry
+209,19,Female,Diabetes,Emergency,4.2,2023-06-04,2023-06-08 04:48:00,0,10271.3,General Medicine
+210,18,Female,Diabetes,Emergency,2.4,2023-09-19,2023-09-21 09:36:00,0,2961.14,General Medicine
+211,65,Other,COPD,Urgent,8.3,2023-09-30,2023-10-08 07:12:00,0,18753.02,Surgery
+212,29,Female,Hypertension,Emergency,3.1,2023-08-20,2023-08-23 02:24:00,1,5359.48,Psychiatry
+213,86,Male,Depression,Emergency,1.7,2023-08-29,2023-08-30 16:48:00,0,3005.79,ICU
+214,54,Male,Heart Failure,Emergency,4.9,2023-12-21,2023-12-25 21:36:00,0,6778.64,ICU
+215,49,Female,Diabetes,Newborn,1.1,2023-12-03,2023-12-04 02:24:00,0,1930.16,ICU
+216,26,Male,Hypertension,Newborn,2.3,2023-09-15,2023-09-17 07:12:00,0,2125.99,Surgery
+217,36,Female,COPD,Urgent,7.0,2023-09-06,2023-09-13 00:00:00,0,14699.26,Surgery
+218,65,Male,None,Emergency,3.9,2023-03-18,2023-03-21 21:36:00,0,5007.48,Cardiology
+219,20,Male,Diabetes,Newborn,4.1,2023-06-29,2023-07-03 02:24:00,0,9466.63,ICU
+220,37,Male,COPD,Urgent,2.2,2023-03-07,2023-03-09 04:48:00,1,3135.76,ICU
+221,41,Male,Heart Failure,Emergency,2.7,2023-11-04,2023-11-06 16:48:00,0,2815.56,Surgery
+222,71,Female,Depression,Elective,1.3,2023-12-14,2023-12-15 07:12:00,0,2577.9,Surgery
+223,50,Female,,Emergency,4.4,2023-06-20,2023-06-24 09:36:00,0,4751.04,Cardiology
+224,41,Female,,Emergency,1.3,2023-01-22,2023-01-23 07:12:00,0,2705.63,Cardiology
+225,89,Female,Heart Failure,Newborn,1.2,2023-04-17,2023-04-18 04:48:00,0,2934.95,General Medicine
+226,53,Male,None,Urgent,2.9,2023-11-19,2023-11-21 21:36:00,0,,Psychiatry
+227,55,Female,Hypertension,Urgent,6.8,2023-08-15,2023-08-21 19:12:00,0,5699.51,ICU
+228,42,Female,Depression,Newborn,1.4,2023-08-04,2023-08-05 09:36:00,0,2547.73,ICU
+229,35,Female,,Emergency,6.6,2023-03-10,2023-03-16 14:24:00,0,13082.51,Cardiology
+230,83,Male,Depression,Elective,5.2,2023-03-25,2023-03-30 04:48:00,0,11457.05,Cardiology
+231,71,Female,,Emergency,0.5,2023-04-13,2023-04-13 12:00:00,0,447.6,General Medicine
+232,52,Female,Depression,Emergency,3.8,2023-02-08,2023-02-11 19:12:00,0,6141.5,Psychiatry
+233,78,Other,COPD,Elective,1.3,2023-01-13,2023-01-14 07:12:00,0,2223.17,General Medicine
+234,58,Female,Diabetes,Newborn,3.4,2023-10-24,2023-10-27 09:36:00,0,3697.54,Psychiatry
+235,50,Male,Depression,Urgent,2.5,2023-11-09,2023-11-11 12:00:00,0,3370.41,ICU
+236,85,Female,Hypertension,Newborn,10.7,2023-06-30,2023-07-10 16:48:00,1,16567.63,General Medicine
+237,50,Female,COPD,Newborn,5.1,2023-09-25,2023-09-30 02:24:00,0,11303.93,Cardiology
+238,31,Male,,Emergency,2.6,2023-01-13,2023-01-15 14:24:00,0,6187.98,General Medicine
+239,38,Female,Hypertension,Urgent,4.0,2023-04-30,2023-05-04 00:00:00,0,7473.28,General Medicine
+240,65,Female,Depression,Urgent,6.3,2023-12-19,2023-12-25 07:12:00,0,9269.86,ICU
+241,37,Male,Heart Failure,Newborn,3.4,2023-02-26,2023-03-01 09:36:00,0,4188.3,Cardiology
+242,25,Male,Hypertension,Elective,10.1,2023-02-09,2023-02-19 02:24:00,1,24943.26,Cardiology
+243,24,Male,Depression,Newborn,3.5,2023-12-02,2023-12-05 12:00:00,0,8648.97,Surgery
+244,84,Male,Hypertension,Elective,4.5,2023-05-08,2023-05-12 12:00:00,1,10676.07,Surgery
+245,34,Male,Hypertension,Urgent,3.1,2023-06-22,2023-06-25 02:24:00,1,6620.48,Surgery
+246,50,Female,Diabetes,Newborn,1.9,2023-02-04,2023-02-05 21:36:00,0,2572.27,ICU
+247,65,Male,Depression,Emergency,2.4,2023-09-16,2023-09-18 09:36:00,0,5253.36,General Medicine
+248,76,Male,Heart Failure,Newborn,3.3,2023-01-05,2023-01-08 07:12:00,0,4933.33,Cardiology
+249,39,Female,Diabetes,Urgent,7.4,2023-08-06,2023-08-13 09:36:00,0,10030.81,Cardiology
+250,47,Female,Hypertension,Emergency,8.3,2023-01-11,2023-01-19 07:12:00,1,17150.05,General Medicine
+251,55,Male,None,Emergency,10.9,2023-11-23,2023-12-03 21:36:00,0,10195.99,Cardiology
+252,68,Male,Hypertension,Elective,1.8,2023-04-27,2023-04-28 19:12:00,1,1588.6,General Medicine
+253,71,Male,Hypertension,Emergency,5.9,2023-07-03,2023-07-08 21:36:00,0,,ICU
+254,25,Female,Depression,Emergency,7.7,2023-12-28,2024-01-04 16:48:00,1,11993.41,ICU
+255,44,Male,,Newborn,1.5,2023-04-26,2023-04-27 12:00:00,1,3483.89,ICU
+256,44,Female,Diabetes,Urgent,3.7,2023-06-11,2023-06-14 16:48:00,0,3753.5,General Medicine
+257,38,Other,Heart Failure,Elective,0.6,2023-03-08,2023-03-08 14:24:00,0,605.75,General Medicine
+258,47,Male,Diabetes,Newborn,5.4,2023-07-19,2023-07-24 09:36:00,0,5673.61,Psychiatry
+259,45,Female,COPD,Emergency,8.2,2023-01-31,2023-02-08 04:48:00,1,6974.52,Cardiology
+260,81,Other,Hypertension,Emergency,1.0,2023-03-16,2023-03-17 00:00:00,1,,Cardiology
+261,86,Male,None,Elective,2.0,2023-08-25,2023-08-27 00:00:00,0,3843.56,Psychiatry
+262,78,Female,Hypertension,Urgent,1.9,2023-11-23,2023-11-24 21:36:00,0,2914.02,Psychiatry
+263,65,Female,Hypertension,Elective,1.5,2023-03-07,2023-03-08 12:00:00,0,3147.19,ICU
+264,36,Female,Diabetes,Newborn,3.7,2023-03-11,2023-03-14 16:48:00,1,9203.44,Psychiatry
+265,21,Female,None,Elective,5.0,2023-10-24,2023-10-29 00:00:00,0,9601.79,General Medicine
+266,52,Female,None,Emergency,5.6,2023-01-20,2023-01-25 14:24:00,1,4960.34,Surgery
+267,81,Female,None,Newborn,6.6,2023-08-14,2023-08-20 14:24:00,0,6453.2,General Medicine
+268,66,Female,Diabetes,Emergency,11.0,2023-07-18,2023-07-29 00:00:00,0,25274.78,Psychiatry
+269,34,Female,Hypertension,Urgent,3.7,2023-02-08,2023-02-11 16:48:00,0,6277.95,Cardiology
+270,61,Female,Diabetes,Emergency,2.8,2023-05-25,2023-05-27 19:12:00,0,6166.22,General Medicine
+271,47,Female,Depression,Emergency,10.8,2023-02-14,2023-02-24 19:12:00,0,24367.4,Cardiology
+272,63,Male,Depression,Elective,3.7,2023-11-22,2023-11-25 16:48:00,0,8795.07,General Medicine
+273,23,Male,Diabetes,Emergency,2.4,2023-04-01,2023-04-03 09:36:00,0,5795.3,Cardiology
+274,54,Male,None,Newborn,9.1,2023-08-26,2023-09-04 02:24:00,0,15863.16,General Medicine
+275,41,Male,Hypertension,Newborn,2.9,2023-03-11,2023-03-13 21:36:00,0,4001.23,Cardiology
+276,63,Male,Diabetes,Urgent,5.6,2023-06-15,2023-06-20 14:24:00,0,,Surgery
+277,70,Female,Diabetes,Newborn,2.3,2023-05-10,2023-05-12 07:12:00,1,3980.36,ICU
+278,77,Male,Diabetes,Elective,5.3,2023-08-02,2023-08-07 07:12:00,0,4818.92,General Medicine
+279,80,Female,COPD,Urgent,5.7,2023-12-06,2023-12-11 16:48:00,1,10788.5,Surgery
+280,49,Male,Depression,Newborn,9.1,2023-03-30,2023-04-08 02:24:00,0,16371.48,ICU
+281,50,Female,None,Elective,2.9,2023-12-01,2023-12-03 21:36:00,0,6736.26,General Medicine
+282,84,Other,Heart Failure,Newborn,3.9,2023-09-09,2023-09-12 21:36:00,0,7450.63,Surgery
+283,35,Male,None,Newborn,4.8,2023-12-15,2023-12-19 19:12:00,0,6688.27,Surgery
+284,42,Female,Heart Failure,Emergency,3.6,2023-03-13,2023-03-16 14:24:00,0,8793.3,Surgery
+285,71,Male,COPD,Newborn,1.9,2023-06-14,2023-06-15 21:36:00,0,4109.23,Psychiatry
+286,75,Female,Diabetes,Newborn,7.2,2023-02-18,2023-02-25 04:48:00,0,13476.31,Cardiology
+287,84,Male,COPD,Elective,3.8,2023-02-21,2023-02-24 19:12:00,0,4932.3,ICU
+288,63,Female,COPD,Elective,0.8,2023-10-16,2023-10-16 19:12:00,0,1148.01,Cardiology
+289,41,Male,Hypertension,Emergency,1.3,2023-10-05,2023-10-06 07:12:00,0,2520.63,Cardiology
+290,49,Female,Depression,Newborn,2.7,2023-04-24,2023-04-26 16:48:00,0,2490.39,Cardiology
+291,64,Female,Heart Failure,Emergency,2.3,2023-08-27,2023-08-29 07:12:00,0,2843.62,Surgery
+292,40,Male,Diabetes,Newborn,1.1,2023-05-13,2023-05-14 02:24:00,0,2214.99,Cardiology
+293,83,Male,Heart Failure,Urgent,1.4,2023-10-01,2023-10-02 09:36:00,0,2262.44,Psychiatry
+294,44,Male,None,Urgent,9.9,2023-06-15,2023-06-24 21:36:00,0,14692.28,General Medicine
+295,19,Male,Heart Failure,Emergency,7.0,2023-10-20,2023-10-27 00:00:00,1,7402.35,Surgery
+296,34,Female,None,Emergency,8.3,2023-08-31,2023-09-08 07:12:00,1,12874.49,ICU
+297,50,Male,Depression,Emergency,9.7,2023-11-16,2023-11-25 16:48:00,0,20468.71,General Medicine
+298,26,Male,None,Elective,2.7,2023-05-18,2023-05-20 16:48:00,0,3371.82,General Medicine
+299,60,Male,Heart Failure,Elective,5.3,2023-03-20,2023-03-25 07:12:00,0,4288.64,General Medicine
+300,65,Female,Heart Failure,Elective,0.5,2023-06-19,2023-06-19 12:00:00,0,968.23,Cardiology
+301,56,Male,None,Emergency,5.1,2023-05-03,2023-05-08 02:24:00,0,12512.67,Cardiology
+302,59,Male,COPD,Newborn,1.8,2023-06-25,2023-06-26 19:12:00,0,3296.89,Surgery
+303,43,Male,Depression,Urgent,2.3,2023-10-27,2023-10-29 07:12:00,0,2308.89,Cardiology
+304,67,Male,Hypertension,Emergency,4.3,2023-03-23,2023-03-27 07:12:00,0,5784.56,Cardiology
+305,42,Female,Diabetes,Elective,3.4,2023-03-28,2023-03-31 09:36:00,0,7734.97,Cardiology
+306,41,Male,Heart Failure,Elective,2.2,2023-08-13,2023-08-15 04:48:00,0,2629.8,Surgery
+307,30,Male,Diabetes,Emergency,2.3,2023-01-16,2023-01-18 07:12:00,0,4216.09,Surgery
+308,77,Female,Hypertension,Emergency,1.5,2023-11-06,2023-11-07 12:00:00,0,2226.81,Psychiatry
+309,24,Female,Diabetes,Elective,1.0,2023-12-24,2023-12-25 00:00:00,0,1153.33,Psychiatry
+310,74,Male,Hypertension,Newborn,1.0,2023-06-12,2023-06-13 00:00:00,0,2182.79,Psychiatry
+311,53,Female,None,Elective,6.1,2023-04-08,2023-04-14 02:24:00,0,12583.16,Psychiatry
+312,62,Female,COPD,Elective,2.9,2023-06-05,2023-06-07 21:36:00,0,5581.64,General Medicine
+313,37,Male,Heart Failure,Emergency,8.8,2023-01-02,2023-01-10 19:12:00,0,10575.6,General Medicine
+314,82,Female,Hypertension,Newborn,5.6,2023-12-16,2023-12-21 14:24:00,1,5411.6,Psychiatry
+315,25,Female,Diabetes,Elective,4.6,2023-06-18,2023-06-22 14:24:00,0,8185.57,Psychiatry
+316,33,Male,Heart Failure,Elective,1.3,2023-11-11,2023-11-12 07:12:00,1,2263.63,ICU
+317,31,Male,COPD,Urgent,1.3,2023-11-21,2023-11-22 07:12:00,0,1456.33,General Medicine
+318,32,Male,None,Emergency,3.7,2023-04-02,2023-04-05 16:48:00,0,3313.79,ICU
+319,83,Female,Heart Failure,Urgent,3.5,2023-06-30,2023-07-03 12:00:00,0,3280.22,ICU
+320,49,Other,Hypertension,Urgent,2.4,2023-08-19,2023-08-21 09:36:00,0,5970.51,Cardiology
+321,80,Female,COPD,Elective,4.5,2023-10-28,2023-11-01 12:00:00,0,9594.42,Surgery
+322,68,Male,Diabetes,Emergency,4.2,2023-05-28,2023-06-01 04:48:00,0,9942.99,General Medicine
+323,42,Female,COPD,Newborn,3.7,2023-10-07,2023-10-10 16:48:00,0,4186.89,Psychiatry
+324,75,Female,COPD,Elective,7.3,2023-07-08,2023-07-15 07:12:00,1,17760.66,Psychiatry
+325,80,Male,Depression,Newborn,10.6,2023-12-13,2023-12-23 14:24:00,0,11050.63,Surgery
+326,79,Male,COPD,Newborn,3.4,2023-12-16,2023-12-19 09:36:00,0,5662.49,General Medicine
+327,39,Female,COPD,Emergency,2.7,2023-11-10,2023-11-12 16:48:00,0,5968.3,Psychiatry
+328,75,Male,,Urgent,11.0,2023-05-08,2023-05-19 00:00:00,0,15341.32,Psychiatry
+329,75,Female,Diabetes,Emergency,3.9,2023-01-07,2023-01-10 21:36:00,1,5936.61,Cardiology
+330,66,Male,Heart Failure,Newborn,5.9,2023-02-16,2023-02-21 21:36:00,1,6005.7,ICU
+331,69,Male,Heart Failure,Elective,1.8,2023-02-22,2023-02-23 19:12:00,1,1816.14,Psychiatry
+332,59,Male,Hypertension,Newborn,1.8,2023-07-06,2023-07-07 19:12:00,0,3335.88,General Medicine
+333,87,Male,Heart Failure,Elective,2.7,2023-02-07,2023-02-09 16:48:00,0,5260.69,Surgery
+334,32,Female,Depression,Elective,3.9,2023-08-14,2023-08-17 21:36:00,0,8273.71,Cardiology
+335,71,Male,Depression,Emergency,4.1,2023-02-22,2023-02-26 02:24:00,1,7160.07,General Medicine
+336,77,Female,Hypertension,Newborn,2.5,2023-08-12,2023-08-14 12:00:00,0,4744.48,Cardiology
+337,25,Female,None,Urgent,4.7,2023-06-03,2023-06-07 16:48:00,0,3868.0,ICU
+338,70,Female,Diabetes,Newborn,4.5,2023-02-17,2023-02-21 12:00:00,0,4840.61,Psychiatry
+339,77,Male,Diabetes,Newborn,9.4,2023-12-17,2023-12-26 09:36:00,0,23258.94,General Medicine
+340,22,Female,Heart Failure,Urgent,1.8,2023-05-27,2023-05-28 19:12:00,0,1672.54,Surgery
+341,85,Female,Heart Failure,Emergency,5.7,2023-03-05,2023-03-10 16:48:00,0,11137.46,ICU
+342,23,Male,None,Newborn,3.4,2023-12-15,2023-12-18 09:36:00,1,3737.76,ICU
+343,64,Male,,Newborn,2.3,2023-07-01,2023-07-03 07:12:00,1,4642.37,Cardiology
+344,72,Female,Diabetes,Elective,1.3,2023-05-05,2023-05-06 07:12:00,0,2600.24,ICU
+345,57,Other,COPD,Newborn,3.9,2023-06-28,2023-07-01 21:36:00,0,4672.74,General Medicine
+346,69,Male,Depression,Urgent,2.7,2023-02-08,2023-02-10 16:48:00,1,3397.62,Cardiology
+347,33,Female,COPD,Elective,3.7,2023-09-17,2023-09-20 16:48:00,1,7078.51,ICU
+348,30,Female,COPD,Emergency,1.1,2023-01-03,2023-01-04 02:24:00,0,1609.46,Surgery
+349,47,Female,Diabetes,Elective,3.9,2023-03-05,2023-03-08 21:36:00,0,4409.85,General Medicine
+350,36,Other,COPD,Urgent,3.7,2023-01-29,2023-02-01 16:48:00,0,7562.26,Surgery
+351,34,Female,None,Urgent,6.0,2023-01-11,2023-01-17 00:00:00,1,6372.3,Surgery
+352,80,Male,Hypertension,Elective,8.9,2023-04-07,2023-04-15 21:36:00,0,20065.89,Cardiology
+353,36,Male,Heart Failure,Emergency,4.6,2023-12-24,2023-12-28 14:24:00,0,7704.72,Psychiatry
+354,75,Male,Hypertension,Elective,2.1,2023-07-22,2023-07-24 02:24:00,0,2057.35,Cardiology
+355,72,Female,Depression,Emergency,4.0,2023-01-21,2023-01-25 00:00:00,1,7919.69,General Medicine
+356,79,Female,Heart Failure,Elective,2.9,2023-02-08,2023-02-10 21:36:00,0,4879.47,General Medicine
+357,40,Male,COPD,Urgent,4.5,2023-08-11,2023-08-15 12:00:00,0,5880.14,Cardiology
+358,26,Female,Depression,Newborn,0.7,2023-04-12,2023-04-12 16:48:00,0,1062.82,Psychiatry
+359,29,Female,Heart Failure,Newborn,7.0,2023-02-15,2023-02-22 00:00:00,0,9150.22,Cardiology
+360,18,Female,None,Emergency,1.8,2023-03-07,2023-03-08 19:12:00,0,2244.86,General Medicine
+361,75,Male,None,Emergency,1.7,2023-04-01,2023-04-02 16:48:00,0,1832.83,Psychiatry
+362,18,Female,None,Emergency,3.5,2023-06-13,2023-06-16 12:00:00,0,4958.46,General Medicine
+363,51,Male,None,Urgent,2.9,2023-04-21,2023-04-23 21:36:00,1,3557.37,Psychiatry
+364,65,Male,COPD,Elective,4.5,2023-12-04,2023-12-08 12:00:00,0,8828.27,Psychiatry
+365,18,Male,Hypertension,Urgent,3.8,2023-05-03,2023-05-06 19:12:00,0,7457.84,Cardiology
+366,33,Male,Heart Failure,Newborn,6.3,2023-07-12,2023-07-18 07:12:00,0,10414.71,Cardiology
+367,78,Male,COPD,Emergency,3.0,2023-04-09,2023-04-12 00:00:00,0,6367.52,Cardiology
+368,81,Female,None,Elective,3.9,2023-10-18,2023-10-21 21:36:00,0,8698.08,Psychiatry
+369,80,Male,Hypertension,Newborn,9.6,2023-06-08,2023-06-17 14:24:00,1,17141.79,Psychiatry
+370,86,Female,Depression,Newborn,1.8,2023-04-13,2023-04-14 19:12:00,0,3333.94,General Medicine
+371,39,Male,Depression,Newborn,1.4,2023-10-08,2023-10-09 09:36:00,0,1793.27,Surgery
+372,84,Female,Depression,Urgent,3.6,2023-02-12,2023-02-15 14:24:00,1,8356.6,Cardiology
+373,43,Other,None,Emergency,0.8,2023-03-25,2023-03-25 19:12:00,0,672.92,General Medicine
+374,33,Male,Depression,Newborn,1.5,2023-07-10,2023-07-11 12:00:00,1,2088.94,General Medicine
+375,68,Male,Diabetes,Emergency,1.2,2023-02-20,2023-02-21 04:48:00,0,2432.47,ICU
+376,74,Male,Heart Failure,Urgent,0.5,2023-07-29,2023-07-29 12:00:00,0,468.08,Cardiology
+377,46,Female,Heart Failure,Newborn,1.9,2023-05-06,2023-05-07 21:36:00,0,2111.64,General Medicine
+378,86,Female,None,Urgent,2.7,2023-03-10,2023-03-12 16:48:00,0,4864.82,ICU
+379,64,Male,Diabetes,Urgent,2.0,2023-09-22,2023-09-24 00:00:00,0,3503.98,Cardiology
+380,79,Female,COPD,Emergency,1.1,2023-09-15,2023-09-16 02:24:00,0,,Psychiatry
+381,86,Male,COPD,Newborn,0.5,2023-07-07,2023-07-07 12:00:00,0,1090.72,ICU
+382,33,Male,Depression,Urgent,2.4,2023-08-18,2023-08-20 09:36:00,1,2444.6,Psychiatry
+383,65,Female,Hypertension,Newborn,2.7,2023-07-08,2023-07-10 16:48:00,0,2244.37,Surgery
+384,56,Male,COPD,Emergency,0.7,2023-01-10,2023-01-10 16:48:00,1,1380.67,Surgery
+385,50,Female,Hypertension,Urgent,2.4,2023-04-24,2023-04-26 09:36:00,0,3149.68,Surgery
+386,40,Male,Heart Failure,Emergency,3.0,2023-03-17,2023-03-20 00:00:00,0,5592.52,Surgery
+387,27,Other,Hypertension,Newborn,3.9,2023-06-13,2023-06-16 21:36:00,0,,General Medicine
+388,86,Male,Heart Failure,Newborn,4.9,2023-03-26,2023-03-30 21:36:00,0,7827.1,Surgery
+389,51,Male,Diabetes,Emergency,6.0,2023-02-18,2023-02-24 00:00:00,1,9945.13,General Medicine
+390,69,Female,Diabetes,Elective,1.8,2023-11-22,2023-11-23 19:12:00,0,3230.34,General Medicine
+391,27,Male,None,Urgent,1.9,2023-06-26,2023-06-27 21:36:00,0,3177.54,Cardiology
+392,36,Other,None,Newborn,1.3,2023-08-06,2023-08-07 07:12:00,0,2135.48,General Medicine
+393,75,Female,Depression,Newborn,2.9,2023-07-08,2023-07-10 21:36:00,0,3960.38,General Medicine
+394,18,Female,COPD,Urgent,2.7,2023-12-12,2023-12-14 16:48:00,0,2486.72,Surgery
+395,86,Female,Depression,Emergency,0.5,2023-08-18,2023-08-18 12:00:00,0,,General Medicine
+396,21,Female,Heart Failure,Emergency,0.9,2023-09-12,2023-09-12 21:36:00,0,1383.68,Psychiatry
+397,33,Female,Depression,Emergency,3.1,2023-08-24,2023-08-27 02:24:00,0,4355.03,Surgery
+398,41,Female,Hypertension,Elective,3.8,2023-01-26,2023-01-29 19:12:00,0,6374.23,ICU
+399,19,Female,Heart Failure,Elective,1.3,2023-03-13,2023-03-14 07:12:00,0,,Surgery
+400,49,Male,,Newborn,6.4,2023-09-18,2023-09-24 09:36:00,0,12604.46,General Medicine
+401,41,Male,Diabetes,Emergency,7.1,2023-09-11,2023-09-18 02:24:00,1,16107.93,Psychiatry
+402,29,Female,None,Urgent,2.1,2023-09-28,2023-09-30 02:24:00,0,2746.94,Surgery
+403,67,Male,COPD,Newborn,2.8,2023-05-03,2023-05-05 19:12:00,0,3158.6,Psychiatry
+404,52,Female,Heart Failure,Urgent,3.0,2023-05-24,2023-05-27 00:00:00,0,2992.52,ICU
+405,50,Male,Heart Failure,Newborn,4.1,2023-09-14,2023-09-18 02:24:00,0,7575.29,ICU
+406,50,Male,Hypertension,Elective,2.9,2023-05-24,2023-05-26 21:36:00,1,4508.21,Cardiology
+407,78,Female,COPD,Newborn,3.3,2023-09-16,2023-09-19 07:12:00,0,3694.77,Cardiology
+408,68,Female,Diabetes,Elective,1.2,2023-02-16,2023-02-17 04:48:00,0,2292.4,Surgery
+409,60,Male,Heart Failure,Newborn,1.6,2023-12-17,2023-12-18 14:24:00,0,1683.87,Cardiology
+410,29,Female,Heart Failure,Emergency,3.0,2023-01-13,2023-01-16 00:00:00,0,5226.93,Psychiatry
+411,84,Female,Hypertension,Urgent,3.4,2023-07-27,2023-07-30 09:36:00,0,5766.92,Cardiology
+412,82,Male,Depression,Emergency,9.2,2023-11-07,2023-11-16 04:48:00,0,18843.32,Psychiatry
+413,50,Female,Diabetes,Newborn,4.5,2023-08-23,2023-08-27 12:00:00,0,4021.59,Cardiology
+414,57,Male,None,Newborn,1.1,2023-05-29,2023-05-30 02:24:00,0,2540.32,Cardiology
+415,60,Male,COPD,Newborn,2.6,2023-11-18,2023-11-20 14:24:00,0,5187.22,Cardiology
+416,61,Other,,Elective,2.5,2023-06-04,2023-06-06 12:00:00,0,2918.54,General Medicine
+417,46,Male,Heart Failure,Urgent,2.8,2023-06-15,2023-06-17 19:12:00,0,3113.01,General Medicine
+418,30,Female,None,Urgent,3.7,2023-03-31,2023-04-03 16:48:00,0,5675.14,Cardiology
+419,29,Female,Diabetes,Newborn,2.2,2023-07-05,2023-07-07 04:48:00,0,4817.69,Psychiatry
+420,63,Male,Depression,Newborn,7.5,2023-11-14,2023-11-21 12:00:00,0,16747.61,Surgery
+421,19,Female,Heart Failure,Elective,1.0,2023-12-24,2023-12-25 00:00:00,0,1684.78,ICU
+422,52,Female,Diabetes,Emergency,3.0,2023-06-23,2023-06-26 00:00:00,0,,General Medicine
+423,25,Male,None,Emergency,10.3,2023-08-05,2023-08-15 07:12:00,1,8335.32,Cardiology
+424,43,Female,Hypertension,Urgent,1.9,2023-09-21,2023-09-22 21:36:00,1,1633.61,ICU
+425,51,Female,Depression,Elective,1.9,2023-04-07,2023-04-08 21:36:00,0,4465.18,General Medicine
+426,24,Female,COPD,Newborn,9.9,2023-04-27,2023-05-06 21:36:00,0,20968.84,Surgery
+427,85,Female,Heart Failure,Urgent,4.3,2023-07-18,2023-07-22 07:12:00,0,6734.66,Psychiatry
+428,75,Male,Diabetes,Elective,3.1,2023-11-16,2023-11-19 02:24:00,0,6451.53,Cardiology
+429,46,Female,Hypertension,Emergency,3.1,2023-01-21,2023-01-24 02:24:00,0,7516.22,Surgery
+430,53,Female,COPD,Elective,7.0,2023-07-19,2023-07-26 00:00:00,0,14787.87,General Medicine
+431,38,Female,Diabetes,Emergency,2.1,2023-12-07,2023-12-09 02:24:00,1,4687.27,Cardiology
+432,53,Female,,Elective,1.0,2023-09-05,2023-09-06 00:00:00,0,2093.03,ICU
+433,27,Female,COPD,Urgent,1.1,2023-10-03,2023-10-04 02:24:00,0,1194.55,Psychiatry
+434,41,Female,Hypertension,Emergency,4.2,2023-09-21,2023-09-25 04:48:00,0,9311.72,General Medicine
+435,81,Female,None,Urgent,1.7,2023-02-27,2023-02-28 16:48:00,0,1923.86,Psychiatry
+436,66,Female,Hypertension,Urgent,3.7,2023-10-29,2023-11-01 16:48:00,0,8574.53,Cardiology
+437,53,Female,Depression,Emergency,1.2,2023-01-31,2023-02-01 04:48:00,0,1895.65,Surgery
+438,41,Female,Heart Failure,Emergency,4.7,2023-09-06,2023-09-10 16:48:00,0,9169.04,Psychiatry
+439,40,Female,COPD,Newborn,12.1,2023-04-03,2023-04-15 02:24:00,0,19908.24,ICU
+440,79,Male,None,Newborn,4.0,2023-09-22,2023-09-26 00:00:00,0,3839.14,General Medicine
+441,54,Male,COPD,Newborn,0.5,2023-09-28,2023-09-28 12:00:00,0,647.11,ICU
+442,29,Male,COPD,Urgent,7.7,2023-04-04,2023-04-11 16:48:00,0,19037.05,Psychiatry
+443,72,Female,Hypertension,Urgent,1.8,2023-06-03,2023-06-04 19:12:00,0,4379.79,Surgery
+444,30,Female,Heart Failure,Newborn,0.6,2023-10-12,2023-10-12 14:24:00,0,,Surgery
+445,40,Female,Depression,Urgent,0.5,2023-03-21,2023-03-21 12:00:00,1,1246.85,ICU
+446,47,Male,Diabetes,Urgent,13.0,2023-10-19,2023-11-01 00:00:00,0,29086.68,Cardiology
+447,34,Female,Diabetes,Emergency,3.4,2023-03-25,2023-03-28 09:36:00,1,6251.35,Cardiology
+448,79,Male,COPD,Emergency,1.9,2023-12-31,2024-01-01 21:36:00,1,1649.6,Surgery
+449,30,Male,Heart Failure,Urgent,2.4,2023-02-06,2023-02-08 09:36:00,0,5597.9,ICU
+450,76,Female,None,Newborn,0.6,2023-12-08,2023-12-08 14:24:00,0,1048.58,ICU
+451,36,Female,Hypertension,Elective,3.8,2023-11-23,2023-11-26 19:12:00,1,8650.36,ICU
+452,66,Male,Heart Failure,Newborn,5.0,2023-08-20,2023-08-25 00:00:00,0,11092.65,Psychiatry
+453,29,Male,Heart Failure,Elective,1.2,2023-04-03,2023-04-04 04:48:00,0,2659.33,Cardiology
+454,78,Male,Hypertension,Newborn,4.1,2023-12-02,2023-12-06 02:24:00,1,8146.27,Cardiology
+455,36,Male,COPD,Emergency,14.8,2023-04-12,2023-04-26 19:12:00,0,19172.0,Psychiatry
+456,26,Female,Heart Failure,Urgent,5.4,2023-06-15,2023-06-20 09:36:00,0,7405.95,General Medicine
+457,88,Male,,Urgent,3.2,2023-06-08,2023-06-11 04:48:00,0,4238.07,Psychiatry
+458,45,Female,Hypertension,Emergency,1.0,2023-01-14,2023-01-15 00:00:00,0,,ICU
+459,69,Female,None,Elective,5.7,2023-08-13,2023-08-18 16:48:00,0,10205.09,Psychiatry
+460,33,Male,Depression,Elective,4.4,2023-03-14,2023-03-18 09:36:00,0,8747.28,ICU
+461,86,Male,COPD,Elective,1.8,2023-09-06,2023-09-07 19:12:00,0,4052.83,Surgery
+462,29,Male,Hypertension,Emergency,4.4,2023-04-01,2023-04-05 09:36:00,0,4568.44,ICU
+463,42,Male,,Elective,1.1,2023-08-04,2023-08-05 02:24:00,0,1897.62,Cardiology
+464,69,Male,Depression,Emergency,3.5,2023-03-31,2023-04-03 12:00:00,0,2847.65,Psychiatry
+465,70,Female,None,Newborn,2.6,2023-01-29,2023-01-31 14:24:00,0,2500.31,ICU
+466,40,Male,Heart Failure,Newborn,9.0,2023-11-01,2023-11-10 00:00:00,0,8029.44,General Medicine
+467,33,Other,None,Emergency,3.1,2023-08-08,2023-08-11 02:24:00,0,6303.27,Surgery
+468,74,Male,Heart Failure,Urgent,13.5,2023-11-24,2023-12-07 12:00:00,0,12660.32,General Medicine
+469,56,Female,Heart Failure,Newborn,3.0,2023-08-03,2023-08-06 00:00:00,1,6053.91,General Medicine
+470,70,Female,Hypertension,Elective,4.4,2023-08-09,2023-08-13 09:36:00,0,5387.19,General Medicine
+471,59,Female,Hypertension,Emergency,7.9,2023-02-11,2023-02-18 21:36:00,0,18107.69,Surgery
+472,75,Female,COPD,Elective,5.5,2023-05-15,2023-05-20 12:00:00,0,12002.95,Surgery
+473,56,Female,Heart Failure,Elective,0.5,2023-02-11,2023-02-11 12:00:00,1,,Surgery
+474,31,Female,Depression,Urgent,4.4,2023-06-13,2023-06-17 09:36:00,0,10130.54,Surgery
+475,22,Female,Diabetes,Elective,4.2,2023-12-27,2023-12-31 04:48:00,0,10023.97,General Medicine
+476,52,Female,COPD,Urgent,0.7,2023-10-10,2023-10-10 16:48:00,0,1581.9,Cardiology
+477,35,Male,Hypertension,Newborn,6.1,2023-02-27,2023-03-05 02:24:00,0,12070.37,Cardiology
+478,26,Male,None,Emergency,0.7,2023-10-29,2023-10-29 16:48:00,0,762.61,Surgery
+479,75,Female,COPD,Elective,4.8,2023-11-18,2023-11-22 19:12:00,0,6057.13,Psychiatry
+480,34,Female,COPD,Emergency,2.8,2023-01-25,2023-01-27 19:12:00,0,3252.58,ICU
+481,24,Female,COPD,Elective,4.9,2023-03-14,2023-03-18 21:36:00,1,8947.87,Psychiatry
+482,63,Female,COPD,Emergency,3.6,2023-05-09,2023-05-12 14:24:00,0,5962.15,Psychiatry
+483,30,Other,Diabetes,Elective,2.8,2023-03-28,2023-03-30 19:12:00,0,6367.3,Psychiatry
+484,57,Male,None,Elective,3.1,2023-11-26,2023-11-29 02:24:00,0,7500.59,Cardiology
+485,59,Male,None,Elective,0.9,2023-06-02,2023-06-02 21:36:00,1,1339.44,ICU
+486,26,Male,None,Elective,6.3,2023-07-01,2023-07-07 07:12:00,0,,Psychiatry
+487,67,Male,Heart Failure,Elective,1.2,2023-05-05,2023-05-06 04:48:00,1,2941.89,Surgery
+488,44,Female,Depression,Elective,3.8,2023-03-08,2023-03-11 19:12:00,1,4824.5,Cardiology
+489,83,Male,None,Elective,3.7,2023-01-06,2023-01-09 16:48:00,0,7944.14,Surgery
+490,22,Female,COPD,Elective,6.3,2023-05-05,2023-05-11 07:12:00,0,7452.32,Surgery
+491,46,Male,COPD,Elective,2.1,2023-11-10,2023-11-12 02:24:00,0,4112.81,Psychiatry
+492,54,Female,None,Emergency,0.9,2023-11-22,2023-11-22 21:36:00,0,1108.03,Surgery
+493,55,Female,None,Urgent,3.2,2023-02-22,2023-02-25 04:48:00,0,7367.51,ICU
+494,25,Male,COPD,Elective,4.3,2023-03-07,2023-03-11 07:12:00,0,7544.4,Surgery
+495,82,Female,Heart Failure,Urgent,3.1,2023-11-10,2023-11-13 02:24:00,1,3459.87,Psychiatry
+496,34,Male,Hypertension,Elective,6.5,2023-03-23,2023-03-29 12:00:00,0,7679.28,Surgery
+497,88,Male,Hypertension,Elective,3.0,2023-03-28,2023-03-31 00:00:00,1,4918.63,Cardiology
+498,62,Male,None,Emergency,0.5,2023-01-02,2023-01-02 12:00:00,0,1217.36,Cardiology
+499,21,Male,,Newborn,1.4,2023-07-23,2023-07-24 09:36:00,0,2951.75,Cardiology
+500,53,Male,None,Newborn,8.5,2023-05-30,2023-06-07 12:00:00,1,13856.07,General Medicine
+501,87,Female,None,Emergency,3.8,2023-10-20,2023-10-23 19:12:00,0,5221.67,Cardiology
+502,48,Female,Hypertension,Urgent,1.4,2023-04-13,2023-04-14 09:36:00,0,2427.26,Cardiology
+503,36,Female,COPD,Newborn,3.6,2023-01-24,2023-01-27 14:24:00,0,7459.97,General Medicine
+504,78,Male,None,Emergency,2.9,2023-07-31,2023-08-02 21:36:00,0,6184.77,Cardiology
+505,71,Female,COPD,Emergency,3.1,2023-03-06,2023-03-09 02:24:00,0,4190.69,Psychiatry
+506,56,Male,COPD,Newborn,0.5,2023-07-28,2023-07-28 12:00:00,0,1012.99,Cardiology
+507,36,Male,Diabetes,Urgent,4.1,2023-09-08,2023-09-12 02:24:00,0,7864.79,Cardiology
+508,56,Female,COPD,Emergency,0.8,2023-04-27,2023-04-27 19:12:00,1,1944.39,General Medicine
+509,84,Male,Hypertension,Elective,1.3,2023-04-26,2023-04-27 07:12:00,0,3097.71,Psychiatry
+510,62,Female,Heart Failure,Urgent,1.4,2023-08-25,2023-08-26 09:36:00,1,2998.72,Surgery
+511,30,Female,Heart Failure,Urgent,1.7,2023-04-15,2023-04-16 16:48:00,0,3450.61,ICU
+512,75,Male,Depression,Newborn,3.2,2023-09-16,2023-09-19 04:48:00,0,4050.79,Psychiatry
+513,37,Male,None,Newborn,3.4,2023-02-15,2023-02-18 09:36:00,0,7609.68,Surgery
+514,89,Male,Hypertension,Elective,5.7,2023-11-07,2023-11-12 16:48:00,0,8702.53,Psychiatry
+515,78,Female,COPD,Emergency,9.9,2023-11-27,2023-12-06 21:36:00,1,12501.81,Surgery
+516,56,Male,Heart Failure,Newborn,7.0,2023-08-04,2023-08-11 00:00:00,0,10171.51,Surgery
+517,18,Male,Hypertension,Newborn,1.2,2023-10-28,2023-10-29 04:48:00,0,2665.31,Psychiatry
+518,20,Male,Heart Failure,Urgent,3.7,2023-11-29,2023-12-02 16:48:00,0,3894.9,General Medicine
+519,79,Female,COPD,Newborn,6.7,2023-01-24,2023-01-30 16:48:00,0,10555.65,Psychiatry
+520,80,Male,Heart Failure,Newborn,5.7,2023-02-04,2023-02-09 16:48:00,1,9330.95,Psychiatry
+521,42,Male,None,Newborn,10.1,2023-01-24,2023-02-03 02:24:00,1,8708.93,Surgery
+522,73,Female,None,Newborn,3.9,2023-01-28,2023-01-31 21:36:00,0,4417.8,ICU
+523,50,Female,Depression,Urgent,2.2,2023-01-16,2023-01-18 04:48:00,0,4852.02,Surgery
+524,55,Male,Depression,Elective,6.1,2023-02-28,2023-03-06 02:24:00,0,13495.06,Cardiology
+525,23,Male,Heart Failure,Elective,3.9,2023-08-31,2023-09-03 21:36:00,0,5058.71,Psychiatry
+526,75,Male,Hypertension,Emergency,4.8,2023-07-26,2023-07-30 19:12:00,1,10979.16,Psychiatry
+527,61,Female,None,Newborn,8.6,2023-09-28,2023-10-06 14:24:00,0,18163.47,General Medicine
+528,62,Male,Hypertension,Urgent,4.0,2023-09-06,2023-09-10 00:00:00,0,6041.77,Surgery
+529,49,Female,Hypertension,Emergency,6.9,2023-09-24,2023-09-30 21:36:00,0,14298.81,General Medicine
+530,62,Female,Heart Failure,Emergency,2.2,2023-07-12,2023-07-14 04:48:00,1,5355.39,Psychiatry
+531,78,Female,,Elective,1.4,2023-12-01,2023-12-02 09:36:00,0,2212.35,Surgery
+532,64,Male,None,Urgent,3.3,2023-08-06,2023-08-09 07:12:00,0,3977.58,Surgery
+533,38,Female,COPD,Urgent,3.0,2023-04-25,2023-04-28 00:00:00,0,7203.26,Cardiology
+534,53,Female,Depression,Urgent,6.9,2023-03-09,2023-03-15 21:36:00,0,12601.92,Cardiology
+535,36,Female,COPD,Elective,9.0,2023-10-26,2023-11-04 00:00:00,0,8810.56,ICU
+536,37,Male,Hypertension,Elective,8.8,2023-11-21,2023-11-29 19:12:00,0,15607.33,Cardiology
+537,74,Other,COPD,Elective,0.5,2023-03-16,2023-03-16 12:00:00,0,825.49,Surgery
+538,35,Male,None,Elective,1.1,2023-04-13,2023-04-14 02:24:00,0,2479.95,Cardiology
+539,64,Male,None,Elective,2.2,2023-10-24,2023-10-26 04:48:00,0,3744.8,ICU
+540,66,Male,Hypertension,Newborn,2.2,2023-06-27,2023-06-29 04:48:00,0,2714.57,Psychiatry
+541,31,Female,Heart Failure,Newborn,1.6,2023-08-03,2023-08-04 14:24:00,0,3117.75,Cardiology
+542,32,Male,COPD,Urgent,2.2,2023-11-11,2023-11-13 04:48:00,0,3789.23,Surgery
+543,48,Male,Heart Failure,Emergency,8.9,2023-02-08,2023-02-16 21:36:00,0,10645.97,Psychiatry
+544,18,Male,Heart Failure,Urgent,6.3,2023-09-16,2023-09-22 07:12:00,0,11183.55,Surgery
+545,71,Male,Diabetes,Emergency,1.7,2023-07-23,2023-07-24 16:48:00,1,3734.24,Psychiatry
+546,20,Female,Hypertension,Elective,2.7,2023-01-07,2023-01-09 16:48:00,0,2291.14,Surgery
+547,33,Female,Depression,Emergency,4.1,2023-02-18,2023-02-22 02:24:00,0,7677.03,Cardiology
+548,74,Male,None,Urgent,0.5,2023-01-26,2023-01-26 12:00:00,0,697.15,Cardiology
+549,29,Male,None,Urgent,2.7,2023-06-10,2023-06-12 16:48:00,0,3503.36,ICU
+550,33,Female,Hypertension,Emergency,2.6,2023-12-23,2023-12-25 14:24:00,0,3815.24,Psychiatry
+551,89,Male,Depression,Newborn,2.6,2023-06-25,2023-06-27 14:24:00,1,3591.74,ICU
+552,41,Male,None,Elective,6.4,2023-03-20,2023-03-26 09:36:00,0,14174.76,General Medicine
+553,45,Other,Hypertension,Elective,2.6,2023-01-02,2023-01-04 14:24:00,0,3294.61,Cardiology
+554,25,Female,None,Urgent,0.5,2023-05-12,2023-05-12 12:00:00,0,1023.18,Psychiatry
+555,53,Male,Heart Failure,Newborn,6.8,2023-10-03,2023-10-09 19:12:00,0,6527.33,ICU
+556,25,Female,COPD,Emergency,1.9,2023-04-27,2023-04-28 21:36:00,0,4593.01,ICU
+557,75,Male,COPD,Elective,1.4,2023-06-13,2023-06-14 09:36:00,0,2601.11,General Medicine
+558,77,Female,None,Newborn,2.0,2023-10-15,2023-10-17 00:00:00,0,4002.84,ICU
+559,67,Male,Diabetes,Elective,9.1,2023-01-28,2023-02-06 02:24:00,0,11890.67,Surgery
+560,45,Male,Depression,Newborn,0.7,2023-11-29,2023-11-29 16:48:00,1,1050.39,Cardiology
+561,58,Male,Depression,Newborn,4.5,2023-01-01,2023-01-05 12:00:00,1,5311.9,ICU
+562,81,Female,Depression,Urgent,2.2,2023-07-07,2023-07-09 04:48:00,0,5247.68,ICU
+563,44,Female,Heart Failure,Elective,4.4,2023-02-25,2023-03-01 09:36:00,0,7171.02,General Medicine
+564,80,Male,Depression,Emergency,0.8,2023-02-04,2023-02-04 19:12:00,1,1497.41,Surgery
+565,34,Male,COPD,Urgent,2.8,2023-04-22,2023-04-24 19:12:00,0,5735.13,ICU
+566,50,Female,Heart Failure,Urgent,2.7,2023-10-13,2023-10-15 16:48:00,0,3863.38,Cardiology
+567,46,Male,Hypertension,Emergency,2.7,2023-11-06,2023-11-08 16:48:00,1,5465.27,Cardiology
+568,30,Male,Depression,Urgent,0.9,2023-02-05,2023-02-05 21:36:00,1,1754.27,ICU
+569,63,Other,Depression,Newborn,1.7,2023-08-05,2023-08-06 16:48:00,0,3399.36,Surgery
+570,52,Male,Hypertension,Newborn,3.3,2023-03-21,2023-03-24 07:12:00,0,5384.58,Cardiology
+571,23,Female,Depression,Elective,0.5,2023-11-10,2023-11-10 12:00:00,0,725.5,Cardiology
+572,86,Other,,Elective,0.8,2023-03-24,2023-03-24 19:12:00,0,942.03,Surgery
+573,64,Male,Heart Failure,Emergency,3.1,2023-03-06,2023-03-09 02:24:00,0,6825.78,Surgery
+574,42,Male,COPD,Elective,3.7,2023-11-21,2023-11-24 16:48:00,0,6786.52,ICU
+575,83,Male,Hypertension,Newborn,2.4,2023-05-08,2023-05-10 09:36:00,0,3732.96,Psychiatry
+576,27,Female,Diabetes,Emergency,3.3,2023-11-03,2023-11-06 07:12:00,0,7935.82,General Medicine
+577,73,Female,Hypertension,Emergency,1.9,2023-01-22,2023-01-23 21:36:00,0,1674.52,Psychiatry
+578,47,Female,Depression,Elective,6.3,2023-08-04,2023-08-10 07:12:00,0,14145.34,Psychiatry
+579,22,Male,Heart Failure,Newborn,8.6,2023-04-17,2023-04-25 14:24:00,0,21464.66,Cardiology
+580,50,Female,None,Emergency,0.8,2023-04-19,2023-04-19 19:12:00,0,1846.24,Surgery
+581,82,Female,Heart Failure,Newborn,1.6,2023-12-23,2023-12-24 14:24:00,1,3484.39,Cardiology
+582,35,Female,None,Newborn,5.9,2023-06-30,2023-07-05 21:36:00,0,8474.29,General Medicine
+583,66,Female,Hypertension,Newborn,2.5,2023-12-22,2023-12-24 12:00:00,0,2983.09,ICU
+584,28,Female,COPD,Elective,5.0,2023-06-13,2023-06-18 00:00:00,1,10246.23,General Medicine
+585,43,Female,Diabetes,Urgent,16.7,2023-03-09,2023-03-25 16:48:00,0,22006.89,Cardiology
+586,80,Female,Heart Failure,Urgent,2.2,2023-10-19,2023-10-21 04:48:00,0,2418.39,Cardiology
+587,76,Male,Depression,Emergency,2.6,2023-06-29,2023-07-01 14:24:00,1,5556.44,Cardiology
+588,44,Male,None,Newborn,0.5,2023-06-30,2023-06-30 12:00:00,0,,Cardiology
+589,66,Female,Depression,Elective,8.2,2023-06-18,2023-06-26 04:48:00,0,19307.32,Psychiatry
+590,50,Male,COPD,Newborn,5.3,2023-01-22,2023-01-27 07:12:00,0,11814.1,ICU
+591,18,Female,None,Newborn,5.7,2023-03-07,2023-03-12 16:48:00,0,12773.63,Psychiatry
+592,38,Other,Heart Failure,Elective,3.8,2023-01-21,2023-01-24 19:12:00,1,8024.34,Cardiology
+593,72,Female,Hypertension,Urgent,2.5,2023-04-10,2023-04-12 12:00:00,1,5743.75,Surgery
+594,23,Male,Depression,Newborn,6.5,2023-10-27,2023-11-02 12:00:00,0,14103.5,Psychiatry
+595,86,Male,COPD,Newborn,1.1,2023-04-13,2023-04-14 02:24:00,0,2006.7,Cardiology
+596,22,Male,Heart Failure,Urgent,7.3,2023-02-16,2023-02-23 07:12:00,0,9511.16,Cardiology
+597,20,Female,Heart Failure,Elective,1.8,2023-02-08,2023-02-09 19:12:00,0,4157.92,ICU
+598,70,Female,Heart Failure,Emergency,2.5,2023-10-12,2023-10-14 12:00:00,0,5572.57,General Medicine
+599,40,Female,Heart Failure,Urgent,3.5,2023-11-06,2023-11-09 12:00:00,0,5613.63,Psychiatry
+600,70,Male,None,Emergency,3.5,2023-03-31,2023-04-03 12:00:00,0,3032.52,Psychiatry
+601,54,Female,Heart Failure,Emergency,4.8,2023-03-26,2023-03-30 19:12:00,0,9050.52,Psychiatry
+602,34,Female,Depression,Urgent,1.0,2023-09-30,2023-10-01 00:00:00,0,886.01,Cardiology
+603,18,Male,COPD,Newborn,3.2,2023-12-02,2023-12-05 04:48:00,0,,ICU
+604,68,Female,None,Emergency,4.5,2023-07-07,2023-07-11 12:00:00,0,,Cardiology
+605,62,Male,Heart Failure,Emergency,0.9,2023-06-08,2023-06-08 21:36:00,0,1009.92,Cardiology
+606,21,Male,Diabetes,Elective,2.6,2023-08-31,2023-09-02 14:24:00,0,5069.64,Surgery
+607,79,Female,Diabetes,Newborn,8.6,2023-03-14,2023-03-22 14:24:00,0,,ICU
+608,82,Male,COPD,Emergency,2.3,2023-02-18,2023-02-20 07:12:00,0,4692.41,Psychiatry
+609,49,Female,Hypertension,Elective,6.3,2023-04-11,2023-04-17 07:12:00,0,8759.45,General Medicine
+610,51,Female,Hypertension,Newborn,3.1,2023-01-02,2023-01-05 02:24:00,1,6069.13,Psychiatry
+611,89,Female,None,Urgent,10.2,2023-09-01,2023-09-11 04:48:00,0,14625.68,Cardiology
+612,56,Male,None,Urgent,2.9,2023-06-25,2023-06-27 21:36:00,0,3037.65,ICU
+613,43,Female,None,Elective,3.4,2023-08-26,2023-08-29 09:36:00,0,5067.32,ICU
+614,51,Female,Hypertension,Urgent,6.4,2023-02-28,2023-03-06 09:36:00,0,6345.89,ICU
+615,71,Female,Diabetes,Emergency,1.5,2023-12-19,2023-12-20 12:00:00,0,2671.05,Surgery
+616,20,Male,Hypertension,Newborn,2.1,2023-04-09,2023-04-11 02:24:00,1,1826.2,Psychiatry
+617,67,Male,Depression,Emergency,12.1,2023-12-25,2024-01-06 02:24:00,0,20526.97,Surgery
+618,29,Female,Heart Failure,Emergency,1.9,2023-01-02,2023-01-03 21:36:00,1,4382.97,General Medicine
+619,82,Male,None,Urgent,3.6,2023-08-31,2023-09-03 14:24:00,1,8007.78,Cardiology
+620,71,Female,Diabetes,Emergency,4.8,2023-10-24,2023-10-28 19:12:00,0,11043.5,Surgery
+621,22,Female,COPD,Urgent,9.6,2023-07-30,2023-08-08 14:24:00,0,22727.84,Surgery
+622,74,Female,COPD,Newborn,0.5,2023-05-03,2023-05-03 12:00:00,0,488.85,Cardiology
+623,34,Female,Heart Failure,Newborn,1.2,2023-08-17,2023-08-18 04:48:00,0,1222.64,ICU
+624,64,Female,Diabetes,Emergency,5.6,2023-03-23,2023-03-28 14:24:00,0,9782.7,Cardiology
+625,40,Female,Hypertension,Elective,9.7,2023-05-24,2023-06-02 16:48:00,0,22501.61,Psychiatry
+626,31,Female,Hypertension,Urgent,5.6,2023-05-20,2023-05-25 14:24:00,0,13755.81,Cardiology
+627,83,Female,Depression,Urgent,1.1,2023-01-29,2023-01-30 02:24:00,0,966.51,ICU
+628,68,Male,Depression,Emergency,2.1,2023-09-27,2023-09-29 02:24:00,0,2950.11,Cardiology
+629,55,Male,Hypertension,Urgent,5.5,2023-09-04,2023-09-09 12:00:00,0,6390.56,Surgery
+630,81,Female,COPD,Urgent,1.3,2023-01-12,2023-01-13 07:12:00,0,2710.68,General Medicine
+631,55,Male,None,Elective,7.6,2023-12-21,2023-12-28 14:24:00,0,14351.3,Surgery
+632,67,Male,COPD,Elective,3.5,2023-12-03,2023-12-06 12:00:00,0,3513.33,General Medicine
+633,47,Male,Depression,Emergency,0.9,2023-04-16,2023-04-16 21:36:00,0,1459.79,Cardiology
+634,68,Female,Heart Failure,Elective,5.1,2023-02-01,2023-02-06 02:24:00,1,10022.77,Psychiatry
+635,80,Female,Hypertension,Emergency,2.7,2023-03-15,2023-03-17 16:48:00,0,5735.63,Cardiology
+636,69,Female,Depression,Newborn,2.1,2023-06-20,2023-06-22 02:24:00,0,1751.59,ICU
+637,55,Female,Depression,Emergency,1.4,2023-12-03,2023-12-04 09:36:00,0,3239.32,Cardiology
+638,47,Female,None,Newborn,2.6,2023-03-10,2023-03-12 14:24:00,0,4596.22,General Medicine
+639,68,Male,Hypertension,Emergency,2.8,2023-10-28,2023-10-30 19:12:00,0,6104.69,Surgery
+640,22,Female,None,Urgent,3.9,2023-12-28,2023-12-31 21:36:00,0,8476.63,Psychiatry
+641,46,Male,Hypertension,Elective,1.3,2023-05-17,2023-05-18 07:12:00,0,1459.57,Cardiology
+642,21,Female,None,Newborn,1.5,2023-04-10,2023-04-11 12:00:00,0,1480.94,Cardiology
+643,27,Female,COPD,Emergency,8.3,2023-05-26,2023-06-03 07:12:00,0,16817.36,Surgery
+644,73,Male,Heart Failure,Elective,0.9,2023-01-09,2023-01-09 21:36:00,0,959.33,Psychiatry
+645,34,Male,Heart Failure,Emergency,6.0,2023-03-03,2023-03-09 00:00:00,0,13469.36,Cardiology
+646,34,Male,Hypertension,Elective,0.6,2023-07-04,2023-07-04 14:24:00,0,,Cardiology
+647,86,Male,Diabetes,Elective,5.9,2023-01-29,2023-02-03 21:36:00,1,13163.51,General Medicine
+648,51,Male,Depression,Emergency,0.7,2023-04-24,2023-04-24 16:48:00,0,915.83,General Medicine
+649,23,Female,Depression,Newborn,6.0,2023-05-23,2023-05-29 00:00:00,0,8029.3,ICU
+650,70,Female,Hypertension,Newborn,2.4,2023-04-30,2023-05-02 09:36:00,0,4658.58,Surgery
+651,83,Female,None,Urgent,2.4,2023-06-19,2023-06-21 09:36:00,0,2048.3,Psychiatry
+652,60,Female,Diabetes,Elective,11.7,2023-06-06,2023-06-17 16:48:00,1,23810.02,Cardiology
+653,40,Female,COPD,Urgent,0.9,2023-12-01,2023-12-01 21:36:00,0,,Cardiology
+654,72,Female,None,Urgent,2.4,2023-12-15,2023-12-17 09:36:00,0,3613.87,ICU
+655,33,Male,None,Emergency,4.5,2023-09-17,2023-09-21 12:00:00,0,9451.32,Cardiology
+656,25,Female,Hypertension,Emergency,5.2,2023-03-23,2023-03-28 04:48:00,0,5703.56,Surgery
+657,21,Male,Hypertension,Emergency,9.7,2023-08-30,2023-09-08 16:48:00,1,13074.07,ICU
+658,21,Other,Depression,Elective,0.7,2023-06-21,2023-06-21 16:48:00,0,1719.42,Surgery
+659,73,Female,Hypertension,Emergency,8.8,2023-08-19,2023-08-27 19:12:00,1,21795.47,ICU
+660,42,Female,Hypertension,Emergency,1.3,2023-07-27,2023-07-28 07:12:00,0,2172.86,Cardiology
+661,84,Male,Hypertension,Elective,1.5,2023-03-16,2023-03-17 12:00:00,0,3582.39,ICU
+662,84,Female,Depression,Elective,6.6,2023-09-27,2023-10-03 14:24:00,0,11145.04,General Medicine
+663,44,Female,COPD,Newborn,7.8,2023-04-24,2023-05-01 19:12:00,1,10106.46,Psychiatry
+664,49,Male,COPD,Emergency,1.6,2023-03-03,2023-03-04 14:24:00,0,2005.97,Cardiology
+665,67,Male,Hypertension,Emergency,5.4,2023-12-28,2024-01-02 09:36:00,0,12852.86,Psychiatry
+666,78,Female,,Emergency,2.4,2023-11-16,2023-11-18 09:36:00,1,2623.58,Cardiology
+667,68,Male,COPD,Newborn,2.9,2023-04-12,2023-04-14 21:36:00,0,5177.59,Psychiatry
+668,36,Female,None,Emergency,2.4,2023-12-28,2023-12-30 09:36:00,0,4186.54,General Medicine
+669,38,Male,COPD,Newborn,0.9,2023-07-29,2023-07-29 21:36:00,0,,Psychiatry
+670,22,Male,COPD,Urgent,3.4,2023-09-12,2023-09-15 09:36:00,0,5605.62,ICU
+671,59,Female,Depression,Newborn,2.1,2023-01-20,2023-01-22 02:24:00,0,2652.06,Psychiatry
+672,78,Male,None,Urgent,7.5,2023-02-27,2023-03-06 12:00:00,0,8159.81,Cardiology
+673,39,Female,Depression,Emergency,4.7,2023-04-22,2023-04-26 16:48:00,0,8720.34,Surgery
+674,38,Male,Hypertension,Urgent,6.1,2023-11-09,2023-11-15 02:24:00,0,12335.93,Psychiatry
+675,87,Male,Heart Failure,Newborn,2.7,2023-07-15,2023-07-17 16:48:00,0,4774.1,Psychiatry
+676,18,Female,COPD,Elective,2.4,2023-12-19,2023-12-21 09:36:00,1,4932.47,Psychiatry
+677,22,Female,Heart Failure,Urgent,3.0,2023-04-02,2023-04-05 00:00:00,0,3121.76,Cardiology
+678,29,Female,Depression,Urgent,11.2,2023-02-21,2023-03-04 04:48:00,0,25762.23,Psychiatry
+679,63,Female,Depression,Emergency,1.3,2023-10-20,2023-10-21 07:12:00,0,2327.09,Cardiology
+680,51,Female,Depression,Newborn,2.5,2023-01-08,2023-01-10 12:00:00,0,2539.09,Cardiology
+681,66,Male,Heart Failure,Urgent,2.3,2023-10-27,2023-10-29 07:12:00,0,3646.13,Surgery
+682,62,Male,Depression,Urgent,5.9,2023-04-08,2023-04-13 21:36:00,0,13193.26,ICU
+683,44,Female,Hypertension,Urgent,3.5,2023-08-24,2023-08-27 12:00:00,0,8140.5,Cardiology
+684,43,Female,Depression,Urgent,2.0,2023-03-10,2023-03-12 00:00:00,0,2499.81,General Medicine
+685,64,Female,Diabetes,Elective,6.9,2023-02-14,2023-02-20 21:36:00,0,13863.15,Psychiatry
+686,73,Male,Heart Failure,Newborn,7.7,2023-05-17,2023-05-24 16:48:00,0,7468.81,General Medicine
+687,80,Male,Diabetes,Emergency,8.3,2023-08-22,2023-08-30 07:12:00,0,7113.33,Psychiatry
+688,65,Female,Depression,Emergency,2.7,2023-02-01,2023-02-03 16:48:00,0,4732.23,Surgery
+689,78,Female,Hypertension,Elective,4.7,2023-10-16,2023-10-20 16:48:00,0,9311.67,Cardiology
+690,43,Female,COPD,Newborn,2.5,2023-05-06,2023-05-08 12:00:00,1,5382.09,ICU
+691,53,Female,None,Urgent,4.2,2023-03-08,2023-03-12 04:48:00,0,5789.14,Cardiology
+692,18,Female,None,Elective,4.5,2023-01-30,2023-02-03 12:00:00,0,3649.92,Psychiatry
+693,25,Male,Depression,Newborn,2.4,2023-04-24,2023-04-26 09:36:00,0,3876.44,ICU
+694,69,Male,,Urgent,3.0,2023-07-23,2023-07-26 00:00:00,0,,Cardiology
+695,64,Male,Heart Failure,Elective,1.7,2023-01-29,2023-01-30 16:48:00,0,1625.84,ICU
+696,73,Male,Diabetes,Newborn,1.3,2023-05-11,2023-05-12 07:12:00,0,1761.98,Psychiatry
+697,31,Female,Diabetes,Emergency,3.3,2023-07-04,2023-07-07 07:12:00,0,5092.54,Surgery
+698,45,Male,Diabetes,Emergency,3.0,2023-09-10,2023-09-13 00:00:00,0,3825.29,Surgery
+699,19,Female,,Newborn,2.4,2023-10-13,2023-10-15 09:36:00,0,,Cardiology
+700,43,Male,None,Emergency,5.5,2023-03-03,2023-03-08 12:00:00,0,4917.52,General Medicine
+701,31,Male,Hypertension,Newborn,3.4,2023-01-03,2023-01-06 09:36:00,0,3555.67,Psychiatry
+702,76,Male,Heart Failure,Urgent,3.8,2023-03-09,2023-03-12 19:12:00,0,7531.37,Cardiology
+703,73,Male,Diabetes,Newborn,8.8,2023-01-25,2023-02-02 19:12:00,0,9166.43,Cardiology
+704,24,Female,Depression,Urgent,8.1,2023-06-28,2023-07-06 02:24:00,0,15289.7,Surgery
+705,20,Male,COPD,Elective,4.9,2023-05-21,2023-05-25 21:36:00,0,4375.52,ICU
+706,40,Female,Heart Failure,Newborn,6.6,2023-08-19,2023-08-25 14:24:00,1,9850.83,Psychiatry
+707,35,Male,Heart Failure,Elective,0.6,2023-10-27,2023-10-27 14:24:00,1,660.96,ICU
+708,55,Male,Hypertension,Emergency,5.5,2023-06-12,2023-06-17 12:00:00,0,5425.1,Psychiatry
+709,32,Male,,Urgent,3.0,2023-11-07,2023-11-10 00:00:00,0,5291.87,General Medicine
+710,81,Female,Heart Failure,Newborn,5.4,2023-05-10,2023-05-15 09:36:00,0,12842.12,Surgery
+711,45,Female,Diabetes,Elective,1.7,2023-09-03,2023-09-04 16:48:00,0,1518.33,General Medicine
+712,56,Male,COPD,Urgent,2.4,2023-10-24,2023-10-26 09:36:00,0,3639.94,Cardiology
+713,74,Male,Hypertension,Urgent,2.2,2023-06-21,2023-06-23 04:48:00,0,4406.18,Surgery
+714,34,Female,Diabetes,Emergency,2.8,2023-03-05,2023-03-07 19:12:00,1,4442.39,Cardiology
+715,61,Male,Depression,Emergency,5.7,2023-01-31,2023-02-05 16:48:00,0,12374.95,General Medicine
+716,42,Male,Hypertension,Urgent,1.3,2023-02-16,2023-02-17 07:12:00,0,1437.02,Psychiatry
+717,34,Female,Diabetes,Urgent,3.1,2023-05-10,2023-05-13 02:24:00,0,7537.06,Cardiology
+718,30,Female,Diabetes,Newborn,3.7,2023-12-18,2023-12-21 16:48:00,0,5382.67,ICU
+719,42,Male,COPD,Urgent,1.0,2023-11-29,2023-11-30 00:00:00,0,1380.67,Psychiatry
+720,85,Female,COPD,Newborn,3.6,2023-04-20,2023-04-23 14:24:00,0,8232.59,Psychiatry
+721,27,Female,Depression,Urgent,1.9,2023-03-10,2023-03-11 21:36:00,0,3341.29,General Medicine
+722,84,Male,Diabetes,Emergency,3.0,2023-02-27,2023-03-02 00:00:00,0,5033.87,General Medicine
+723,35,Female,None,Newborn,7.0,2023-04-16,2023-04-23 00:00:00,1,14251.04,Surgery
+724,51,Female,Diabetes,Elective,3.0,2023-10-27,2023-10-30 00:00:00,0,5357.15,Surgery
+725,25,Male,COPD,Emergency,7.7,2023-11-26,2023-12-03 16:48:00,0,8287.33,ICU
+726,57,Male,None,Newborn,2.5,2023-09-13,2023-09-15 12:00:00,0,4865.34,Psychiatry
+727,59,Male,Hypertension,Newborn,1.6,2023-11-08,2023-11-09 14:24:00,0,1643.04,ICU
+728,58,Female,Hypertension,Elective,4.5,2023-06-20,2023-06-24 12:00:00,0,9764.81,ICU
+729,23,Male,Heart Failure,Newborn,3.9,2023-06-11,2023-06-14 21:36:00,1,9681.95,General Medicine
+730,69,Female,COPD,Urgent,4.9,2023-10-13,2023-10-17 21:36:00,0,7063.64,ICU
+731,43,Female,Heart Failure,Elective,2.3,2023-03-12,2023-03-14 07:12:00,1,3579.0,ICU
+732,81,Male,None,Emergency,5.4,2023-09-12,2023-09-17 09:36:00,0,4746.26,Cardiology
+733,76,Female,COPD,Emergency,1.7,2023-02-24,2023-02-25 16:48:00,0,1399.69,Surgery
+734,73,Male,Depression,Urgent,15.9,2023-11-19,2023-12-04 21:36:00,1,37625.96,Surgery
+735,76,Female,Diabetes,Emergency,5.5,2023-01-03,2023-01-08 12:00:00,0,5602.63,Psychiatry
+736,87,Female,Depression,Newborn,6.0,2023-01-26,2023-02-01 00:00:00,0,9346.94,Surgery
+737,50,Male,None,Newborn,6.2,2023-11-09,2023-11-15 04:48:00,0,13553.84,Psychiatry
+738,70,Male,COPD,Urgent,5.7,2023-05-06,2023-05-11 16:48:00,0,13177.5,Cardiology
+739,39,Male,None,Emergency,1.4,2023-02-22,2023-02-23 09:36:00,0,2356.17,Surgery
+740,38,Male,Diabetes,Emergency,3.7,2023-07-17,2023-07-20 16:48:00,1,6514.05,Cardiology
+741,87,Male,Hypertension,Urgent,2.8,2023-10-26,2023-10-28 19:12:00,0,5427.7,Surgery
+742,87,Male,Hypertension,Elective,4.1,2023-07-07,2023-07-11 02:24:00,0,9980.84,Surgery
+743,21,Other,None,Emergency,3.8,2023-07-05,2023-07-08 19:12:00,1,6933.25,Cardiology
+744,79,Male,Heart Failure,Elective,1.6,2023-11-01,2023-11-02 14:24:00,0,2801.77,ICU
+745,79,Male,COPD,Emergency,6.4,2023-10-25,2023-10-31 09:36:00,0,5278.13,ICU
+746,41,Female,COPD,Emergency,9.7,2023-07-23,2023-08-01 16:48:00,0,,ICU
+747,72,Male,Hypertension,Emergency,2.5,2023-01-11,2023-01-13 12:00:00,0,4452.98,ICU
+748,26,Other,Depression,Emergency,4.2,2023-12-25,2023-12-29 04:48:00,0,10044.76,Surgery
+749,20,Female,Diabetes,Newborn,4.6,2023-12-20,2023-12-24 14:24:00,1,10457.53,General Medicine
+750,48,Female,Depression,Elective,2.1,2023-05-26,2023-05-28 02:24:00,0,5187.81,Cardiology
+751,57,Male,Depression,Elective,3.4,2023-03-26,2023-03-29 09:36:00,0,5770.88,General Medicine
+752,53,Male,None,Emergency,0.6,2023-04-10,2023-04-10 14:24:00,0,1283.69,General Medicine
+753,41,Male,Hypertension,Emergency,4.7,2023-04-14,2023-04-18 16:48:00,0,10474.8,Psychiatry
+754,23,Female,Hypertension,Elective,6.7,2023-02-15,2023-02-21 16:48:00,0,12741.08,ICU
+755,83,Male,Hypertension,Newborn,2.6,2023-02-13,2023-02-15 14:24:00,0,,Surgery
+756,21,Male,None,Urgent,2.4,2023-10-05,2023-10-07 09:36:00,0,3837.51,ICU
+757,23,Other,Heart Failure,Urgent,6.1,2023-06-30,2023-07-06 02:24:00,1,13776.6,ICU
+758,68,Male,Depression,Elective,0.9,2023-07-06,2023-07-06 21:36:00,0,1176.78,General Medicine
+759,79,Male,None,Emergency,3.8,2023-04-24,2023-04-27 19:12:00,0,9007.38,Psychiatry
+760,74,Male,COPD,Emergency,2.0,2023-09-12,2023-09-14 00:00:00,1,2381.34,ICU
+761,83,Other,Diabetes,Newborn,1.0,2023-01-30,2023-01-31 00:00:00,0,2074.18,Cardiology
+762,25,Male,Heart Failure,Urgent,5.2,2023-09-21,2023-09-26 04:48:00,0,9734.14,Cardiology
+763,43,Female,COPD,Newborn,5.8,2023-04-08,2023-04-13 19:12:00,0,12031.05,ICU
+764,68,Female,Depression,Urgent,1.4,2023-11-09,2023-11-10 09:36:00,0,2160.89,General Medicine
+765,62,Male,Hypertension,Elective,6.3,2023-11-25,2023-12-01 07:12:00,0,15028.59,General Medicine
+766,61,Female,Depression,Urgent,4.7,2023-04-25,2023-04-29 16:48:00,0,8813.45,Surgery
+767,22,Male,None,Newborn,1.4,2023-10-03,2023-10-04 09:36:00,0,1806.14,Psychiatry
+768,87,Male,Diabetes,Newborn,1.1,2023-10-08,2023-10-09 02:24:00,0,2073.91,General Medicine
+769,43,Female,None,Newborn,10.0,2023-10-02,2023-10-12 00:00:00,0,12875.87,Surgery
+770,85,Female,Heart Failure,Elective,2.9,2023-09-18,2023-09-20 21:36:00,0,3767.61,Cardiology
+771,36,Female,Heart Failure,Urgent,0.8,2023-11-27,2023-11-27 19:12:00,0,1183.45,Cardiology
+772,37,Female,Diabetes,Urgent,3.1,2023-07-26,2023-07-29 02:24:00,1,6972.31,Cardiology
+773,29,Male,COPD,Newborn,2.5,2023-11-24,2023-11-26 12:00:00,1,4126.27,ICU
+774,64,Male,COPD,Urgent,3.3,2023-07-30,2023-08-02 07:12:00,0,6448.63,Psychiatry
+775,18,Male,Heart Failure,Emergency,3.6,2023-08-03,2023-08-06 14:24:00,0,5278.84,Surgery
+776,31,Male,Heart Failure,Emergency,2.5,2023-02-09,2023-02-11 12:00:00,0,3120.32,Psychiatry
+777,81,Male,Hypertension,Emergency,9.3,2023-01-26,2023-02-04 07:12:00,0,22532.86,ICU
+778,55,Male,COPD,Urgent,2.8,2023-01-27,2023-01-29 19:12:00,0,5113.05,Surgery
+779,54,Male,Diabetes,Elective,0.9,2023-07-09,2023-07-09 21:36:00,0,2148.95,Surgery
+780,28,Male,COPD,Elective,10.2,2023-03-24,2023-04-03 04:48:00,0,11687.18,General Medicine
+781,20,Female,Hypertension,Elective,1.4,2023-06-19,2023-06-20 09:36:00,0,1469.61,Psychiatry
+782,50,Female,None,Elective,2.0,2023-06-16,2023-06-18 00:00:00,1,4509.8,Psychiatry
+783,23,Male,Heart Failure,Emergency,5.4,2023-07-07,2023-07-12 09:36:00,0,10570.82,General Medicine
+784,67,Female,Heart Failure,Emergency,1.9,2023-06-18,2023-06-19 21:36:00,0,2122.65,Cardiology
+785,27,Female,Hypertension,Newborn,1.6,2023-10-16,2023-10-17 14:24:00,0,2012.66,ICU
+786,22,Male,Diabetes,Urgent,5.8,2023-08-17,2023-08-22 19:12:00,0,12534.55,Psychiatry
+787,40,Female,Heart Failure,Urgent,4.6,2023-04-07,2023-04-11 14:24:00,0,7229.25,General Medicine
+788,27,Female,Depression,Elective,7.9,2023-01-16,2023-01-23 21:36:00,0,15325.36,Surgery
+789,61,Female,Heart Failure,Emergency,3.4,2023-10-06,2023-10-09 09:36:00,0,4560.07,General Medicine
+790,19,Male,Depression,Elective,0.5,2023-05-15,2023-05-15 12:00:00,0,724.05,Cardiology
+791,30,Female,Hypertension,Newborn,1.7,2023-01-26,2023-01-27 16:48:00,1,4223.16,ICU
+792,57,Male,Hypertension,Urgent,12.2,2023-12-18,2023-12-30 04:48:00,1,14895.58,Cardiology
+793,19,Female,Heart Failure,Urgent,4.9,2023-01-12,2023-01-16 21:36:00,1,8138.78,Surgery
+794,82,Female,COPD,Elective,6.2,2023-03-13,2023-03-19 04:48:00,0,13860.0,Surgery
+795,80,Female,Depression,Newborn,11.0,2023-05-13,2023-05-24 00:00:00,0,13273.47,Surgery
+796,34,Female,Diabetes,Urgent,5.4,2023-04-16,2023-04-21 09:36:00,0,8131.66,Surgery
+797,26,Female,Heart Failure,Newborn,4.9,2023-08-08,2023-08-12 21:36:00,0,9043.71,General Medicine
+798,32,Male,Diabetes,Newborn,6.3,2023-06-26,2023-07-02 07:12:00,0,10193.53,Surgery
+799,41,Male,Heart Failure,Elective,4.7,2023-10-09,2023-10-13 16:48:00,1,7431.42,Surgery
+800,55,Female,COPD,Emergency,3.1,2023-05-13,2023-05-16 02:24:00,0,4390.43,General Medicine
+801,52,Male,COPD,Elective,3.7,2023-01-22,2023-01-25 16:48:00,0,6650.01,Surgery
+802,66,Male,COPD,Emergency,5.5,2023-09-26,2023-10-01 12:00:00,0,10237.88,Cardiology
+803,86,Male,None,Newborn,1.5,2023-06-10,2023-06-11 12:00:00,1,2865.89,Cardiology
+804,79,Male,COPD,Emergency,5.2,2023-04-17,2023-04-22 04:48:00,0,4782.05,Psychiatry
+805,77,Female,Hypertension,Newborn,4.3,2023-10-06,2023-10-10 07:12:00,1,8052.86,Cardiology
+806,67,Female,Hypertension,Urgent,0.5,2023-12-19,2023-12-19 12:00:00,1,1210.25,ICU
+807,26,Female,None,Urgent,1.8,2023-08-23,2023-08-24 19:12:00,1,3095.42,ICU
+808,51,Female,Depression,Urgent,3.0,2023-01-18,2023-01-21 00:00:00,0,,ICU
+809,52,Male,Diabetes,Elective,1.6,2023-08-30,2023-08-31 14:24:00,0,2794.31,General Medicine
+810,18,Male,Heart Failure,Elective,8.2,2023-04-27,2023-05-05 04:48:00,0,18475.08,Cardiology
+811,57,Female,Heart Failure,Newborn,0.8,2023-10-13,2023-10-13 19:12:00,0,,ICU
+812,81,Male,None,Urgent,3.9,2023-10-09,2023-10-12 21:36:00,0,4341.38,Psychiatry
+813,39,Female,Hypertension,Elective,2.6,2023-05-24,2023-05-26 14:24:00,0,4010.92,General Medicine
+814,77,Female,Heart Failure,Urgent,7.0,2023-07-24,2023-07-31 00:00:00,1,10269.35,Psychiatry
+815,81,Male,Hypertension,Elective,1.7,2023-02-08,2023-02-09 16:48:00,0,2531.07,Cardiology
+816,89,Female,Depression,Emergency,2.6,2023-06-03,2023-06-05 14:24:00,1,2634.82,Surgery
+817,28,Female,Diabetes,Emergency,1.4,2023-06-25,2023-06-26 09:36:00,0,3056.41,Psychiatry
+818,31,Female,Depression,Urgent,5.9,2023-08-29,2023-09-03 21:36:00,0,5078.74,Surgery
+819,77,Male,None,Newborn,1.5,2023-05-14,2023-05-15 12:00:00,1,2546.98,General Medicine
+820,47,Male,COPD,Elective,6.9,2023-02-15,2023-02-21 21:36:00,0,13283.83,Psychiatry
+821,52,Female,COPD,Elective,3.3,2023-02-19,2023-02-22 07:12:00,0,3803.9,Psychiatry
+822,54,Male,COPD,Emergency,2.9,2023-06-15,2023-06-17 21:36:00,0,6785.84,General Medicine
+823,22,Male,Depression,Emergency,3.0,2023-04-16,2023-04-19 00:00:00,0,6676.6,General Medicine
+824,43,Female,Heart Failure,Newborn,2.5,2023-08-04,2023-08-06 12:00:00,0,4002.11,ICU
+825,79,Male,Diabetes,Newborn,11.3,2023-05-26,2023-06-06 07:12:00,0,16938.17,Cardiology
+826,21,Female,COPD,Newborn,3.0,2023-03-13,2023-03-16 00:00:00,0,3606.5,Psychiatry
+827,59,Female,None,Urgent,2.3,2023-11-26,2023-11-28 07:12:00,0,4694.27,Psychiatry
+828,35,Female,None,Emergency,4.7,2023-09-30,2023-10-04 16:48:00,0,4812.63,General Medicine
+829,57,Male,COPD,Urgent,2.0,2023-09-04,2023-09-06 00:00:00,0,3912.81,General Medicine
+830,89,Female,COPD,Emergency,0.5,2023-07-05,2023-07-05 12:00:00,0,1116.09,Cardiology
+831,56,Male,Diabetes,Emergency,4.8,2023-03-11,2023-03-15 19:12:00,1,5704.33,General Medicine
+832,31,Male,COPD,Elective,4.6,2023-05-30,2023-06-03 14:24:00,0,10455.46,Surgery
+833,49,Female,Diabetes,Emergency,0.6,2023-09-03,2023-09-03 14:24:00,0,513.99,Surgery
+834,68,Male,None,Emergency,6.8,2023-09-19,2023-09-25 19:12:00,0,15991.82,Surgery
+835,55,Male,COPD,Urgent,2.5,2023-01-26,2023-01-28 12:00:00,1,2503.04,Surgery
+836,40,Female,Depression,Emergency,9.5,2023-05-20,2023-05-29 12:00:00,0,,Cardiology
+837,80,Male,Depression,Urgent,8.1,2023-04-09,2023-04-17 02:24:00,0,9923.64,Psychiatry
+838,32,Male,None,Newborn,0.5,2023-10-05,2023-10-05 12:00:00,0,1111.07,Surgery
+839,42,Female,Diabetes,Emergency,12.2,2023-02-20,2023-03-04 04:48:00,0,20385.11,General Medicine
+840,34,Female,Depression,Emergency,2.7,2023-05-31,2023-06-02 16:48:00,0,2780.76,Surgery
+841,83,Female,Diabetes,Urgent,2.4,2023-04-14,2023-04-16 09:36:00,0,4249.65,Cardiology
+842,70,Male,Depression,Newborn,15.0,2023-03-30,2023-04-14 00:00:00,0,22401.01,General Medicine
+843,68,Male,Depression,Elective,3.5,2023-05-21,2023-05-24 12:00:00,1,6735.61,Surgery
+844,56,Male,Diabetes,Newborn,1.4,2023-08-01,2023-08-02 09:36:00,0,3218.93,Psychiatry
+845,68,Male,Heart Failure,Urgent,2.0,2023-08-21,2023-08-23 00:00:00,0,,General Medicine
+846,87,Female,Depression,Newborn,6.4,2023-07-02,2023-07-08 09:36:00,0,8273.9,General Medicine
+847,23,Male,COPD,Urgent,9.1,2023-09-08,2023-09-17 02:24:00,1,,Psychiatry
+848,84,Male,None,Urgent,6.7,2023-01-09,2023-01-15 16:48:00,1,11907.42,General Medicine
+849,24,Female,Heart Failure,Elective,2.0,2023-03-20,2023-03-22 00:00:00,0,2967.73,Surgery
+850,68,Female,Diabetes,Emergency,3.1,2023-02-21,2023-02-24 02:24:00,0,4454.4,General Medicine
+851,89,Female,Heart Failure,Urgent,1.3,2023-09-26,2023-09-27 07:12:00,0,1444.29,Surgery
+852,59,Male,Hypertension,Urgent,0.7,2023-08-14,2023-08-14 16:48:00,0,1071.77,Psychiatry
+853,81,Male,Hypertension,Elective,11.1,2023-02-20,2023-03-03 02:24:00,0,27456.42,ICU
+854,32,Male,Depression,Urgent,3.1,2023-07-05,2023-07-08 02:24:00,0,4049.16,Psychiatry
+855,46,Male,Depression,Emergency,4.5,2023-02-03,2023-02-07 12:00:00,0,8187.74,Surgery
+856,50,Female,COPD,Elective,2.9,2023-10-18,2023-10-20 21:36:00,0,6148.08,Cardiology
+857,44,Female,None,Emergency,4.4,2023-08-18,2023-08-22 09:36:00,0,9123.7,Psychiatry
+858,53,Female,Heart Failure,Emergency,7.0,2023-05-11,2023-05-18 00:00:00,0,9512.41,Cardiology
+859,46,Female,Hypertension,Elective,12.3,2023-04-30,2023-05-12 07:12:00,0,22613.08,Cardiology
+860,55,Male,Depression,Urgent,8.4,2023-11-22,2023-11-30 09:36:00,0,19161.66,Surgery
+861,74,Female,None,Emergency,2.8,2023-09-04,2023-09-06 19:12:00,0,2313.53,Surgery
+862,44,Male,Heart Failure,Emergency,1.9,2023-07-11,2023-07-12 21:36:00,0,2927.42,ICU
+863,72,Female,Depression,Emergency,4.9,2023-11-19,2023-11-23 21:36:00,0,5788.2,General Medicine
+864,50,Female,Depression,Emergency,5.6,2023-07-29,2023-08-03 14:24:00,0,8179.78,Psychiatry
+865,85,Male,Hypertension,Elective,2.3,2023-04-13,2023-04-15 07:12:00,0,3466.52,Surgery
+866,83,Male,Hypertension,Elective,1.8,2023-11-25,2023-11-26 19:12:00,0,3724.81,Psychiatry
+867,27,Other,Depression,Newborn,4.8,2023-05-13,2023-05-17 19:12:00,0,4605.59,Cardiology
+868,22,Male,Diabetes,Newborn,6.0,2023-11-19,2023-11-25 00:00:00,0,10028.36,General Medicine
+869,55,Male,Depression,Emergency,1.2,2023-05-19,2023-05-20 04:48:00,1,2110.96,ICU
+870,30,Male,None,Urgent,1.5,2023-05-01,2023-05-02 12:00:00,0,2460.1,Psychiatry
+871,48,Female,Depression,Emergency,3.5,2023-04-04,2023-04-07 12:00:00,1,,General Medicine
+872,64,Female,COPD,Urgent,1.5,2023-05-09,2023-05-10 12:00:00,0,2178.67,ICU
+873,69,Female,COPD,Emergency,5.1,2023-04-01,2023-04-06 02:24:00,1,12272.86,Psychiatry
+874,73,Male,,Newborn,4.9,2023-04-02,2023-04-06 21:36:00,0,,General Medicine
+875,32,Female,Diabetes,Newborn,5.0,2023-03-04,2023-03-09 00:00:00,0,8855.32,Surgery
+876,46,Male,Diabetes,Urgent,1.6,2023-01-29,2023-01-30 14:24:00,0,3525.44,Psychiatry
+877,25,Female,Depression,Emergency,1.4,2023-07-29,2023-07-30 09:36:00,0,1775.06,General Medicine
+878,22,Female,COPD,Urgent,3.9,2023-01-12,2023-01-15 21:36:00,1,3618.59,ICU
+879,46,Male,Diabetes,Newborn,2.1,2023-11-29,2023-12-01 02:24:00,0,4206.79,General Medicine
+880,64,Male,Hypertension,Emergency,1.3,2023-10-24,2023-10-25 07:12:00,0,2107.46,Surgery
+881,85,Male,Depression,Emergency,2.1,2023-05-10,2023-05-12 02:24:00,0,4880.52,Psychiatry
+882,62,Male,,Urgent,0.8,2023-10-20,2023-10-20 19:12:00,0,1976.44,Psychiatry
+883,19,Male,Heart Failure,Elective,5.9,2023-06-22,2023-06-27 21:36:00,1,8723.07,Psychiatry
+884,44,Female,Depression,Urgent,5.1,2023-07-27,2023-08-01 02:24:00,0,7681.86,Surgery
+885,53,Female,Heart Failure,Newborn,3.7,2023-01-24,2023-01-27 16:48:00,0,5526.08,ICU
+886,53,Male,COPD,Newborn,2.5,2023-04-09,2023-04-11 12:00:00,0,3379.35,Psychiatry
+887,43,Male,Heart Failure,Newborn,4.2,2023-12-22,2023-12-26 04:48:00,1,8941.25,ICU
+888,60,Male,COPD,Newborn,0.8,2023-05-19,2023-05-19 19:12:00,0,1672.23,General Medicine
+889,44,Female,Hypertension,Newborn,1.7,2023-11-10,2023-11-11 16:48:00,0,,ICU
+890,86,Male,Heart Failure,Elective,2.4,2023-06-23,2023-06-25 09:36:00,0,2102.22,ICU
+891,37,Female,Depression,Emergency,5.9,2023-01-29,2023-02-03 21:36:00,0,7824.88,Psychiatry
+892,28,Female,COPD,Urgent,3.7,2023-05-23,2023-05-26 16:48:00,0,4798.59,Cardiology
+893,55,Female,Depression,Urgent,2.2,2023-11-12,2023-11-14 04:48:00,1,4793.47,Cardiology
+894,23,Female,Diabetes,Newborn,1.1,2023-12-17,2023-12-18 02:24:00,0,1043.77,Surgery
+895,89,Male,COPD,Urgent,7.7,2023-02-11,2023-02-18 16:48:00,1,16706.29,Surgery
+896,40,Female,Heart Failure,Newborn,0.7,2023-10-26,2023-10-26 16:48:00,0,1356.33,Cardiology
+897,64,Male,COPD,Elective,7.5,2023-07-27,2023-08-03 12:00:00,0,15338.63,General Medicine
+898,63,Male,Depression,Elective,3.0,2023-11-26,2023-11-29 00:00:00,1,4604.29,Psychiatry
+899,29,Female,Hypertension,Emergency,2.4,2023-07-11,2023-07-13 09:36:00,0,4693.28,Psychiatry
+900,30,Female,COPD,Elective,7.1,2023-06-09,2023-06-16 02:24:00,0,13030.98,General Medicine
+901,79,Female,Heart Failure,Elective,2.3,2023-03-05,2023-03-07 07:12:00,0,4846.71,General Medicine
+902,77,Male,Diabetes,Emergency,8.0,2023-08-31,2023-09-08 00:00:00,0,12476.07,Cardiology
+903,60,Male,None,Urgent,4.4,2023-09-15,2023-09-19 09:36:00,0,7056.74,Surgery
+904,85,Female,Hypertension,Newborn,10.2,2023-06-01,2023-06-11 04:48:00,0,19319.61,General Medicine
+905,22,Male,Diabetes,Newborn,2.8,2023-08-03,2023-08-05 19:12:00,1,2754.45,Surgery
+906,54,Female,COPD,Urgent,1.6,2023-11-18,2023-11-19 14:24:00,1,2466.58,ICU
+907,89,Female,Depression,Emergency,7.9,2023-06-15,2023-06-22 21:36:00,0,19373.3,Psychiatry
+908,48,Female,Depression,Urgent,1.0,2023-01-31,2023-02-01 00:00:00,1,863.84,Cardiology
+909,26,Male,Heart Failure,Elective,2.6,2023-08-20,2023-08-22 14:24:00,1,3476.74,Psychiatry
+910,68,Male,Depression,Emergency,4.5,2023-10-09,2023-10-13 12:00:00,0,6002.94,Cardiology
+911,46,Male,Hypertension,Emergency,3.8,2023-01-29,2023-02-01 19:12:00,0,7132.18,ICU
+912,57,Female,Depression,Emergency,6.9,2023-07-14,2023-07-20 21:36:00,0,6761.04,Psychiatry
+913,58,Male,Heart Failure,Newborn,7.5,2023-11-30,2023-12-07 12:00:00,0,14013.94,ICU
+914,28,Female,None,Urgent,3.5,2023-09-13,2023-09-16 12:00:00,0,,Cardiology
+915,40,Male,COPD,Emergency,1.9,2023-10-08,2023-10-09 21:36:00,1,1826.7,General Medicine
+916,18,Other,COPD,Emergency,1.6,2023-10-31,2023-11-01 14:24:00,0,3260.66,Psychiatry
+917,63,Male,Depression,Emergency,1.4,2023-11-17,2023-11-18 09:36:00,0,1891.44,ICU
+918,38,Male,Diabetes,Urgent,2.8,2023-11-19,2023-11-21 19:12:00,0,6892.53,Psychiatry
+919,53,Male,COPD,Newborn,1.3,2023-12-12,2023-12-13 07:12:00,0,1122.55,Psychiatry
+920,71,Female,None,Elective,1.8,2023-10-21,2023-10-22 19:12:00,0,2802.03,Psychiatry
+921,74,Female,Depression,Newborn,4.4,2023-03-28,2023-04-01 09:36:00,0,4366.26,Surgery
+922,18,Female,Heart Failure,Emergency,3.9,2023-05-29,2023-06-01 21:36:00,0,5449.64,ICU
+923,80,Male,None,Newborn,4.6,2023-09-06,2023-09-10 14:24:00,0,11486.1,ICU
+924,71,Male,Depression,Newborn,5.8,2023-11-17,2023-11-22 19:12:00,0,13403.99,Psychiatry
+925,72,Female,None,Elective,2.4,2023-10-10,2023-10-12 09:36:00,0,2117.16,General Medicine
+926,57,Male,,Urgent,6.4,2023-12-28,2024-01-03 09:36:00,0,11248.22,Psychiatry
+927,32,Male,Heart Failure,Urgent,2.3,2023-07-17,2023-07-19 07:12:00,0,4372.99,Surgery
+928,38,Other,Depression,Newborn,4.5,2023-02-13,2023-02-17 12:00:00,0,5202.94,Cardiology
+929,64,Other,Hypertension,Newborn,1.4,2023-12-22,2023-12-23 09:36:00,0,1465.35,Surgery
+930,70,Female,Heart Failure,Urgent,6.4,2023-01-28,2023-02-03 09:36:00,0,14959.67,General Medicine
+931,26,Female,Hypertension,Urgent,11.9,2023-01-17,2023-01-28 21:36:00,1,29119.16,Psychiatry
+932,69,Male,None,Elective,2.6,2023-05-07,2023-05-09 14:24:00,0,6464.17,ICU
+933,74,Male,Diabetes,Emergency,1.3,2023-06-17,2023-06-18 07:12:00,0,2785.37,Psychiatry
+934,43,Female,Heart Failure,Newborn,4.4,2023-09-01,2023-09-05 09:36:00,1,8483.0,General Medicine
+935,58,Female,None,Urgent,4.2,2023-03-17,2023-03-21 04:48:00,0,5828.51,ICU
+936,52,Male,Hypertension,Newborn,3.7,2023-08-19,2023-08-22 16:48:00,0,4038.1,Surgery
+937,80,Male,COPD,Newborn,2.5,2023-07-23,2023-07-25 12:00:00,1,2335.67,Cardiology
+938,42,Male,COPD,Urgent,0.7,2023-09-05,2023-09-05 16:48:00,0,1385.02,Cardiology
+939,55,Female,Diabetes,Elective,3.0,2023-10-29,2023-11-01 00:00:00,0,6402.09,Psychiatry
+940,19,Female,Heart Failure,Newborn,4.4,2023-08-02,2023-08-06 09:36:00,1,9701.87,Surgery
+941,24,Female,Heart Failure,Elective,2.0,2023-08-03,2023-08-05 00:00:00,0,4706.8,General Medicine
+942,51,Male,Heart Failure,Urgent,6.6,2023-06-07,2023-06-13 14:24:00,0,15152.81,Cardiology
+943,34,Other,None,Emergency,3.7,2023-03-10,2023-03-13 16:48:00,0,9248.37,Surgery
+944,60,Female,Diabetes,Emergency,2.8,2023-03-26,2023-03-28 19:12:00,0,3401.74,Psychiatry
+945,76,Male,Heart Failure,Newborn,0.9,2023-09-24,2023-09-24 21:36:00,0,,ICU
+946,68,Male,None,Urgent,2.9,2023-03-10,2023-03-12 21:36:00,0,5211.25,Psychiatry
+947,71,Male,COPD,Elective,1.5,2023-04-09,2023-04-10 12:00:00,1,1866.18,Psychiatry
+948,41,Male,Hypertension,Newborn,5.4,2023-12-13,2023-12-18 09:36:00,1,,Surgery
+949,42,Female,None,Urgent,3.9,2023-08-04,2023-08-07 21:36:00,1,,Cardiology
+950,88,Male,COPD,Urgent,1.7,2023-06-10,2023-06-11 16:48:00,0,1731.41,Surgery
+951,69,Female,COPD,Elective,1.3,2023-04-04,2023-04-05 07:12:00,0,1097.81,ICU
+952,87,Male,Hypertension,Newborn,1.4,2023-06-23,2023-06-24 09:36:00,1,2758.23,Surgery
+953,50,Male,COPD,Urgent,0.6,2023-06-14,2023-06-14 14:24:00,1,1096.21,General Medicine
+954,66,Male,Diabetes,Urgent,6.6,2023-04-25,2023-05-01 14:24:00,0,15779.85,Psychiatry
+955,46,Male,Hypertension,Urgent,4.5,2023-08-08,2023-08-12 12:00:00,0,5390.14,Cardiology
+956,80,Female,COPD,Elective,1.0,2023-01-31,2023-02-01 00:00:00,0,,ICU
+957,39,Female,,Newborn,6.1,2023-01-11,2023-01-17 02:24:00,0,7568.06,Psychiatry
+958,43,Female,None,Newborn,2.4,2023-12-09,2023-12-11 09:36:00,0,1997.22,Surgery
+959,45,Female,COPD,Newborn,2.1,2023-05-10,2023-05-12 02:24:00,1,1808.14,General Medicine
+960,66,Male,Diabetes,Newborn,1.7,2023-04-15,2023-04-16 16:48:00,0,4003.94,Surgery
+961,88,Male,Heart Failure,Emergency,1.4,2023-01-27,2023-01-28 09:36:00,0,1957.8,Psychiatry
+962,66,Male,COPD,Emergency,3.9,2023-08-15,2023-08-18 21:36:00,0,5843.66,ICU
+963,37,Female,Heart Failure,Newborn,6.9,2023-01-02,2023-01-08 21:36:00,0,5735.5,Cardiology
+964,80,Male,Depression,Elective,7.1,2023-12-25,2024-01-01 02:24:00,0,8945.2,Psychiatry
+965,78,Male,COPD,Emergency,2.0,2023-04-11,2023-04-13 00:00:00,0,4336.07,ICU
+966,66,Female,Hypertension,Urgent,0.7,2023-01-21,2023-01-21 16:48:00,0,1292.43,Psychiatry
+967,88,Male,Heart Failure,Emergency,4.9,2023-02-27,2023-03-03 21:36:00,0,10198.99,General Medicine
+968,18,Male,Depression,Urgent,3.4,2023-06-29,2023-07-02 09:36:00,0,5304.9,Surgery
+969,30,Male,Hypertension,Newborn,8.6,2023-12-07,2023-12-15 14:24:00,0,11408.24,Cardiology
+970,68,Female,Hypertension,Emergency,7.3,2023-12-15,2023-12-22 07:12:00,0,11831.67,ICU
+971,73,Female,Hypertension,Elective,3.5,2023-01-20,2023-01-23 12:00:00,1,4722.27,Cardiology
+972,79,Female,Hypertension,Emergency,10.4,2023-09-12,2023-09-22 09:36:00,0,23153.01,Cardiology
+973,49,Male,COPD,Emergency,4.2,2023-11-13,2023-11-17 04:48:00,1,5485.39,Cardiology
+974,47,Other,None,Emergency,2.8,2023-02-07,2023-02-09 19:12:00,0,5380.47,ICU
+975,46,Female,COPD,Newborn,0.5,2023-05-28,2023-05-28 12:00:00,1,516.43,ICU
+976,66,Male,COPD,Elective,1.4,2023-01-25,2023-01-26 09:36:00,1,2754.74,Cardiology
+977,62,Female,Depression,Emergency,2.9,2023-05-01,2023-05-03 21:36:00,0,6822.57,Surgery
+978,47,Male,Depression,Elective,2.6,2023-01-26,2023-01-28 14:24:00,0,4769.94,Psychiatry
+979,33,Female,None,Newborn,4.5,2023-06-18,2023-06-22 12:00:00,0,7882.89,Cardiology
+980,57,Female,Depression,Urgent,2.1,2023-11-19,2023-11-21 02:24:00,1,5111.19,General Medicine
+981,36,Male,Diabetes,Emergency,6.4,2023-08-13,2023-08-19 09:36:00,0,11946.07,Cardiology
+982,35,Other,None,Elective,4.6,2023-01-01,2023-01-05 14:24:00,0,5709.68,ICU
+983,18,Female,,Elective,6.6,2023-11-03,2023-11-09 14:24:00,0,8560.63,Psychiatry
+984,64,Female,None,Newborn,3.6,2023-09-18,2023-09-21 14:24:00,1,7196.48,General Medicine
+985,83,Male,COPD,Emergency,7.2,2023-01-13,2023-01-20 04:48:00,0,14761.74,Psychiatry
+986,55,Male,COPD,Urgent,2.3,2023-02-17,2023-02-19 07:12:00,0,3026.67,Psychiatry
+987,68,Male,None,Elective,2.4,2023-11-09,2023-11-11 09:36:00,0,3329.0,General Medicine
+988,80,Female,Diabetes,Emergency,3.0,2023-10-18,2023-10-21 00:00:00,0,7454.39,Cardiology
+989,21,Male,Diabetes,Urgent,8.1,2023-11-28,2023-12-06 02:24:00,0,7883.89,Cardiology
+990,18,Female,None,Elective,1.4,2023-04-04,2023-04-05 09:36:00,0,2083.06,Cardiology
+991,25,Female,Depression,Elective,3.6,2023-09-18,2023-09-21 14:24:00,0,3262.18,Surgery
+992,46,Male,Heart Failure,Urgent,4.4,2023-10-05,2023-10-09 09:36:00,1,9661.67,Cardiology
+993,72,Female,Diabetes,Urgent,2.5,2023-12-25,2023-12-27 12:00:00,0,2392.47,General Medicine
+994,20,Male,Hypertension,Newborn,1.0,2023-07-24,2023-07-25 00:00:00,0,1945.81,Surgery
+995,49,Other,,Emergency,4.8,2023-07-04,2023-07-08 19:12:00,0,4300.9,Cardiology
+996,27,Female,None,Emergency,0.6,2023-06-24,2023-06-24 14:24:00,0,1166.31,Surgery
+997,51,Male,Hypertension,Newborn,4.2,2023-11-05,2023-11-09 04:48:00,0,,General Medicine
+998,72,Male,None,Elective,6.2,2023-03-10,2023-03-16 04:48:00,0,9163.58,Cardiology
+999,49,Male,COPD,Urgent,3.4,2023-04-14,2023-04-17 09:36:00,0,5737.89,ICU
+1000,67,Female,COPD,Urgent,6.5,2023-09-03,2023-09-09 12:00:00,0,,General Medicine

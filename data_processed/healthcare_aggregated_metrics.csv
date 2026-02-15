@@ -1,0 +1,31 @@
+hospital_unit,primary_condition,admissions,avg_los,readmission_rate,avg_cost
+Cardiology,COPD,30,2.99,16.7,4853.97
+Cardiology,Depression,34,3.57,20.6,5877.11
+Cardiology,Diabetes,32,5.75,21.9,9825.45
+Cardiology,Heart Failure,35,3.89,14.3,6718.94
+Cardiology,Hypertension,39,4.5,23.1,8217.92
+Cardiology,Unknown,49,3.68,16.3,5720.91
+General Medicine,COPD,32,3.92,15.6,6819.7
+General Medicine,Depression,34,4.06,23.5,6722.28
+General Medicine,Diabetes,35,4.43,14.3,7291.85
+General Medicine,Heart Failure,37,4.59,13.5,6866.9
+General Medicine,Hypertension,22,5.27,18.2,8718.66
+General Medicine,Unknown,35,4.14,14.3,6560.88
+ICU,COPD,37,3.89,27.0,5881.88
+ICU,Depression,26,3.86,23.1,6437.75
+ICU,Diabetes,12,4.76,16.7,6949.01
+ICU,Heart Failure,34,3.64,20.6,6044.18
+ICU,Hypertension,30,4.24,20.0,7566.34
+ICU,Unknown,38,3.46,18.4,4639.15
+Psychiatry,COPD,40,4.3,17.5,7261.58
+Psychiatry,Depression,28,5.94,10.7,10678.02
+Psychiatry,Diabetes,31,4.38,12.9,8060.45
+Psychiatry,Heart Failure,31,3.53,35.5,5641.11
+Psychiatry,Hypertension,36,4.07,25.0,7739.61
+Psychiatry,Unknown,42,3.91,9.5,6390.51
+Surgery,COPD,33,4.32,18.2,7829.48
+Surgery,Depression,37,5.0,16.2,8905.97
+Surgery,Diabetes,23,3.29,4.3,5319.58
+Surgery,Heart Failure,40,3.0,30.0,5386.48
+Surgery,Hypertension,33,3.71,21.2,6329.55
+Surgery,Unknown,35,3.97,22.9,6502.88
